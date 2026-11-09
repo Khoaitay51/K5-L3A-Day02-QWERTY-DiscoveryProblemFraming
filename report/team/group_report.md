@@ -95,34 +95,38 @@ Cách đã dùng: Phỏng vấn 2–3 người ngoài nhóm theo The Mom Test (c
 
 > ⚠️ CHƯA PHỎNG VẤN — các bảng dưới chỉ điền sau khi đã hỏi người thật. Không điền trước. Bịa kết quả → C7 = 0 cho cả nhóm.
 
-Interview snapshot #1:
+### Interview snapshot #1 — Ví dụ giả định
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Lập trình viên mới tham gia một dự án, chưa quen với cấu trúc codebase. |
+| Câu nói đáng nhớ nhất (nguyên văn) | “Em hiểu chức năng cần sửa, nhưng đôi khi không biết nên bắt đầu tìm từ file nào và dữ liệu được xử lý qua những hàm nào.” |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Khi được giao chỉnh sửa một chức năng có sẵn, người này mất thời gian tìm file liên quan và lần theo luồng dữ liệu trước khi hiểu được vị trí cần thay đổi. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Tìm kiếm từ khóa trong IDE, đọc README và tài liệu dự án, xem lịch sử commit hoặc hỏi thành viên có kinh nghiệm. |
+| Mất bao lâu, bao lần? | Chưa có dữ liệu thực tế. Cần hỏi người được phỏng vấn về thời gian của lần gần nhất và tần suất gặp vấn đề. |
+| Insight / opportunity rút ra | Người mới có thể gặp khó khăn khi xác định file, hàm và luồng dữ liệu liên quan đến một chức năng. Có cơ hội cải thiện khả năng điều hướng codebase và cung cấp hướng dẫn ban đầu, đồng thời vẫn giữ vai trò trao đổi chuyên môn của Mentor. |
 
-Interview snapshot #2:
+
+
+### Interview snapshot #2
+
+> **Tình huống giả định – cần thay bằng kết quả phỏng vấn thực tế trước khi nộp.**
 
 | Trường | Nội dung |
 |---|---|
-| Người được hỏi (vai trò, không ghi tên thật) | |
-| Câu nói đáng nhớ nhất (nguyên văn) | |
-| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | |
-| Hiện đang xử lý bằng cách nào (workaround)? | |
-| Mất bao lâu, bao lần? | |
-| Insight / opportunity rút ra | |
+| Người được hỏi (vai trò, không ghi tên thật) | Developer mới tham gia dự án phần mềm, có kinh nghiệm học lập trình nhưng chưa quen codebase của nhóm |
+| Câu nói đáng nhớ nhất (nguyên văn) | Ví dụ minh họa: "Có những lúc em biết chức năng cần sửa nhưng không biết dữ liệu bắt đầu từ file nào và đi qua những hàm nào." |
+| Lần gần nhất gặp vấn đề này: chuyện gì đã xảy ra? | Ví dụ minh họa: Khi được giao sửa một chức năng có sẵn, người mới chưa xác định được file xử lý chính và phải tìm hiểu mối liên hệ giữa nhiều hàm trước khi bắt đầu chỉnh sửa. |
+| Hiện đang xử lý bằng cách nào (workaround)? | Ví dụ minh họa: Tìm kiếm tên hàm trong IDE, đọc README và tài liệu dự án, xem lại các commit cũ hoặc hỏi thành viên có kinh nghiệm. |
+| Mất bao lâu, bao lần? | Chưa có số liệu thực tế. Cần hỏi người được phỏng vấn về thời gian của lần gần nhất và tần suất gặp tình huống tương tự. |
+| Insight / opportunity rút ra | Có thể tồn tại khó khăn trong việc xác định mối liên hệ giữa các file, hàm và luồng dữ liệu. Cơ hội là hỗ trợ developer mới định hướng codebase và tìm đúng vị trí cần đọc mà không thay thế việc trao đổi chuyên môn với Mentor. |
 
-Tổng hợp:
+### Tổng hợp
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Phỏng vấn | | | |
-| Research (3.3) | 3 nguồn | Đã có công cụ thương mại giải đúng bước "lần theo luồng code" và "tài liệu lỗi thời" → pain đủ phổ biến để có thị trường | Nghiên cứu onboarding ở Microsoft cho thấy task còn giúp dev mới xây dựng sự tự tin và hòa nhập với nhóm → giảm hỏi Mentor không hẳn là điều tốt |
+| Phỏng vấn | Chưa thực hiện phỏng vấn thực tế | Chưa có dữ liệu thực tế để xác nhận vấn đề từ người dùng. Cần phỏng vấn 2–3 lập trình viên mới để tìm hiểu trải nghiệm gần đây. | Chưa có dữ liệu phản bác từ phỏng vấn. |
+| Research (3.3) | 3 nguồn | Đã có công cụ thương mại giải quyết các vấn đề như lần theo luồng code và phát hiện tài liệu lỗi thời. Điều này cho thấy đây là những nhu cầu đã được nhận diện trên thị trường. | Nghiên cứu onboarding tại Microsoft cho thấy các nhiệm vụ thực tế còn giúp developer mới xây dựng sự tự tin và hòa nhập với nhóm. Vì vậy, giảm số lần hỏi Mentor không nhất thiết là điều tốt. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
 
