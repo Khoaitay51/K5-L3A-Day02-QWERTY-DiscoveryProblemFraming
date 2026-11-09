@@ -22,10 +22,15 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 | 3 | Pain từ người khác | Khi có thông báo deadline/gia hạn từ coach, tôi muốn thấy nó ở một chỗ, để không phải hỏi lại trong group chat | Cả lớp, coach | Ước lượng ~5 câu hỏi lặp về deadline/tuần trong group lớp; coach phải trả lời lại ~2 lần/tuần |
 | 4 | Lặp lại | Khi nhóm làm chung một repo, tôi muốn biết ai đang sửa file nào, để không bị conflict khi push | Thành viên nhóm | Đã gặp 1–2 lần conflict/ghi đè khi push trong các lab nhóm trước |
 | 5 | Tốn thời gian | Khi điền báo cáo Markdown nhiều bảng, tôi muốn kiểm tra còn sót mục nào trước khi nộp, để không bị trừ điểm vì thiếu field | Học viên | Soát lại mất 10–20 phút/lab, 1–2 lab/tuần. Template cá nhân Day02 có 70+ dòng bảng cần điền |
+| 6 | Tốn thời gian | Khi cần tìm lại câu trả lời coach đã giải đáp trong group chat lớp, tôi muốn tìm đúng tin nhắn đó, để không hỏi lại câu đã được trả lời | Học viên; coach (phải trả lời lặp) | Mỗi lần cuộn tìm mất ~5 phút, ~5 lần/tuần → ~25 phút/tuần |
+| 7 | Cần đọc, tổng hợp nhiều thông tin | Khi ôn lại kiến thức các buổi trước để làm lab mới, tôi muốn gom slide, repo cũ và ghi chú về một chỗ, để không phải mở lại từng nguồn | Tôi | Mỗi lần ôn mất ~30 phút, 2 lần/tuần → ~60 phút/tuần (slide, repo lab cũ, ghi chú cá nhân) |
+| 8 | Pain từ người khác | Khi bắt đầu phần làm nhóm, tôi muốn có bảng phân công rõ ngay từ đầu, để không ai làm trùng hoặc bỏ sót phần việc | Thành viên nhóm | Bằng chứng: `TEAM.md` của nhóm đến CP3 vẫn chưa có bảng phân công CP3–CP6. |
+| 9 | Cần đọc, tổng hợp nhiều thông tin | Khi đọc bài làm mẫu để hiểu chuẩn đầu ra, tôi muốn nắm nhanh mỗi mục cần cụ thể đến mức nào, để không phải đọc lại khi làm từng checkpoint | Học viên K5 | `docs/02-deliverable-example.md` dài ~4.500 từ (đếm bằng `wc -w`), trong khi lịch lab chỉ dành 15 phút cho CP0 |
+| 10 | Pain từ người khác | Khi các thành viên làm báo cáo trên nhánh riêng, tôi muốn biết bài ai đã được gộp vào `main`, để nhóm không nộp thiếu bài của ai trước deadline | Nhóm trưởng, cả nhóm | Repo nhóm hiện có 5 nhánh riêng, 0 nhánh đã merge vào `main` (kiểm bằng `git branch -r --merged`); người chấm xem commit cuối trước deadline |
 
 **Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
 
-- Claude gợi ý 8 problem từ bối cảnh học viên K5. Tôi giữ 5 problem trên vì đúng trải nghiệm của tôi và tôi ước lượng được số liệu (thời gian đọc đề, soát bài, số lần conflict). Tôi bỏ 3 ý: "tìm lại câu trả lời cũ trong group chat", "gom ghi chú ôn tập nhiều nguồn" và "bạn cùng nhóm hỏi lại phân công", vì tôi không có số liệu thật cho các ý này.
+- Problem #1–#8 do Claude gợi ý từ bối cảnh học viên K5; #9–#10 do Claude gợi ý thêm sau khi tôi yêu cầu đủ 10 ý. Lúc đầu tôi giữ 5 ý (#1–#5) vì đo được ngay (thời gian đọc đề, soát bài, số lần conflict); sau đó bổ sung lại #6–#8 khi tự điền được số liệu của mình. #9–#10 giữ vì dấu hiệu kiểm được trực tiếp trên repo (số từ bài mẫu, số nhánh chưa merge).
 
 
 ## 3. Top 3 Problem Cards + quy trình nháp (CP2)
