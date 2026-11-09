@@ -166,16 +166,16 @@ Tiếp nhận câu hỏi tiếp theo
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Trình bày top 3 card của mình: (1) Ghi biên bản cuộc họp, (2) Đọc và tóm tắt tài liệu dài, (3) Trả lời câu hỏi khách hàng lặp lại. Tập trung pitch card #1 vì có quy trình rõ và dễ đo. | Card #1 về ghi biên bản cuộc họp được nhóm đưa vào shortlist. Sau khi gom cluster, nhóm nhận thấy pattern chung giữa các candidate liên quan đến việc tìm hiểu và tổng hợp thông tin từ nhiều nguồn. |
+| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: "Bạn có dữ liệu thực tế chứng minh mất bao lâu không, hay chỉ là ước lượng?" và "Bottleneck thật sự là bước nào, có phải bước trước đó mới là nguyên nhân gốc không?" | Giúp bạn trong nhóm nhận ra cần xác minh baseline bằng số liệu thật thay vì ước lượng. Một bạn đã sửa lại bottleneck cho chính xác hơn. |
+| Nhận phản biện | Câu hỏi tôi nhận được: "Vấn đề ghi biên bản cuộc họp có thật sự phổ biến với sinh viên không, hay chỉ xảy ra trong môi trường doanh nghiệp?" và "Nếu dùng template biên bản có sẵn thì đã đủ chưa, có cần AI không?" | Tôi đã sửa gì: Thu hẹp phạm vi actor từ "mọi người tham gia họp" thành cụ thể hơn. Nhận ra phương án No AI (template + checklist) có thể giải quyết được một phần đáng kể. Điều này giúp tôi không nhảy sang AI quá sớm. |
+| Gom cluster / cây OST | Tham gia gom các candidate của cả nhóm thành cluster. Đề xuất gộp các candidate liên quan đến việc đọc hiểu code, tìm thông tin trong codebase và onboarding vào cùng một cluster. | Nhóm xác định được pattern chung: Intern Developer mất nhiều thời gian mò mẫm codebase khi mới tham gia dự án. Cây OST giúp nhóm tách rõ opportunity (pain thật) khỏi solution. |
+| Chọn candidate problem | Tham gia chấm điểm shortlist theo 7 tiêu chí. Ban đầu nghiêng về candidate "ghi biên bản cuộc họp" nhưng sau khi thảo luận, đồng ý chọn candidate về Intern tìm hiểu codebase vì actor rõ hơn, bottleneck đo được và nhóm hiểu domain. | Nhóm chốt được candidate: Intern Developer mất 60–90 phút mỗi task để lần theo luồng code qua nhiều file và tầng xử lý. |
+| Kiểm chứng / research | Tham gia research giải pháp đã có: tìm các công cụ hỗ trợ đọc hiểu codebase, so sánh khả năng của IDE, extension và AI trong việc truy xuất luồng code. Góp phần phỏng vấn để kiểm chứng giả định về thời gian tìm hiểu code của Intern. | Kết quả research cho thấy các công cụ tìm kiếm trong IDE chỉ giải quyết được phần tìm file/hàm theo tên, chưa thể tổng hợp luồng dữ liệu qua nhiều tầng. Nhóm quyết định hướng Workflow kết hợp Rule và AI. |
+| Quy trình nhóm | Tham gia vẽ quy trình hiện tại của Intern khi nhận ticket mới: từ đọc ticket → mở giao diện → tìm API → lần theo Controller/Service/Repository/Model → hỏi Mentor. Đóng góp vào quy trình tương lai với bước AI phân tích chuỗi gọi hàm. | Nhóm có quy trình trước/sau rõ ràng với bảng before/after: từ 75 phút xuống mục tiêu dưới 20 phút/task. |
+| Problem Statement | Góp ý vào Problem Statement v0, đặc biệt phần success metric và boundary. Đề xuất thêm metric "số lần hỏi Mentor" bên cạnh metric thời gian. | Problem Statement v1 có 2 success metric đo được: thời gian giảm từ 75 phút xuống dưới 20 phút/task và số lần hỏi Mentor giảm từ 4–5 xuống ≤ 1 lần/tuần. |
+| Mức can thiệp AI | Tham gia so sánh 4 mức No AI / Rule / Workflow / Agent. Đồng ý chọn Workflow vì Rule không đủ khả năng tổng hợp ngữ cảnh nghiệp vụ, còn Agent thì quá rộng và không cần thiết. Góp ý vào AI Canvas phần Input và Feedback. | Nhóm chọn Workflow với lập luận rõ ràng: Rule truy xuất file, AI phân tích và giải thích, Intern kiểm tra trên IDE, Mentor xác nhận. |
+| Quyết định | Tham gia chấm 4 rủi ro và thảo luận quyết định. Đồng ý Not Yet vì chưa có pilot thực tế và chưa kiểm chứng đủ khả năng AI truy xuất luồng code chính xác. Góp ý vào ngưỡng dừng. | Nhóm quyết định Not Yet với danh sách 5 điều kiện cần kiểm chứng trước khi chuyển sang Go. |
 
 ---
 
@@ -183,12 +183,12 @@ Tiếp nhận câu hỏi tiếp theo
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Sau khi tự scan được 7 problem, hỏi AI gợi ý thêm theo 4 lăng kính dựa trên vai trò sinh viên và người đi làm. | AI gợi ý thêm được 3 ý (#8, #9, #10), giúp mở rộng góc nhìn sang các vấn đề về tìm kiếm thông tin cũ và soạn văn bản theo mẫu. | AI đề xuất một ý quá rộng kiểu "trợ lý AI tổng hợp mọi thông tin" — không có quy trình cụ thể, không đo được. Một số ý bị lẫn solution vào Job Story ("cần một chatbot..."). | Bỏ ý quá rộng. Viết lại Job Story cho #8, #9, #10 theo đúng mẫu "Khi… tôi muốn… để…" dựa trên trải nghiệm thật. Loại bỏ #8 sau vì trùng pattern với #3. |
+| CP2 Problem Card | Nhờ AI đóng vai "PM hoài nghi" phản biện 3 Problem Card, đặc biệt card #1 về ghi biên bản cuộc họp. | AI chỉ ra 5 điểm yếu cụ thể: vấn đề nhận diện giọng nói khi nhiều người nói, nhầm lẫn giữa ý kiến và quyết định, xác định sai người phụ trách, xử lý dư thừa thông tin, và thiếu dữ liệu thực tế. Giúp tôi bổ sung bước kiểm tra và giới hạn phạm vi. | AI gợi ý nên xây agent tự động ghi biên bản và gửi email mà không cần người duyệt — đây là giải pháp quá phức tạp và bỏ qua nhu cầu con người kiểm tra. | Giữ boundary: con người phải xác nhận biên bản trước khi gửi. Bổ sung bước người tham gia xác nhận người phụ trách và deadline. Giới hạn phạm vi ở các cuộc họp nhóm/dự án có nội dung cần theo dõi. |
+| CP4 Research | Nhờ AI tìm các công cụ hỗ trợ Intern đọc hiểu codebase: IDE extension, AI code assistant, tài liệu onboarding pattern. | AI gợi ý được một số công cụ có thật như GitHub Copilot, Sourcegraph, và các IDE feature tìm kiếm theo tên hàm. Giúp nhóm nhanh chóng có danh sách ban đầu để nghiên cứu. | AI đưa 1 link không còn hoạt động (trang tài liệu đã chuyển URL). Ngoài ra, AI nói một số extension "có thể phân tích toàn bộ luồng nghiệp vụ" nhưng thực tế chỉ tìm kiếm theo keyword, không tổng hợp được ngữ cảnh. | Tự mở từng link để kiểm tra. Bỏ link chết, thay bằng link đúng. Ghi rõ trong bảng research: mỗi công cụ giải được bước nào và còn bỏ trống bước nào, không phóng đại khả năng. |
+| CP5 Quy trình | Nhờ AI chuyển mô tả quy trình hiện tại của Intern thành sơ đồ có cấu trúc, liệt kê các bước từ đọc ticket đến hoàn thành kế hoạch sửa code. | AI tạo được khung quy trình nhanh, giúp tiết kiệm thời gian format và tổ chức thông tin. | AI gộp bước "lần theo luồng code qua nhiều file" và "tìm quy tắc ngầm trong code cũ" thành một bước chung, làm mất đi bottleneck quan trọng. Ngoài ra AI thiếu bước "hỏi Mentor" vì không hiểu đây là phần không thể bỏ trong quy trình thực tế. | Tách lại thành 2 bước riêng: (1) lần theo luồng dữ liệu qua 10–15 file — 35 phút và (2) tìm quy tắc ngầm — 15 phút. Bổ sung bước Intern hỏi Mentor khi không hiểu. |
+| CP5–6 Problem Statement | Nhờ AI phản biện Problem Statement v0: chỉ ra lỗ hổng về metric, boundary và phần nào đang lẫn giải pháp vào problem. | AI chỉ ra metric "hòa nhập nhanh hơn" quá mơ hồ, không đo được. Đề xuất cần có baseline cụ thể và cách đo rõ ràng. | AI gợi ý metric "độ hài lòng của Intern" — đây là metric cảm tính, khó đo và không phải hành vi đã xảy ra. | Đổi success metric thành 2 chỉ số đo được: thời gian xác định file/hàm/bảng DB (75 phút → dưới 20 phút) và số lần hỏi Mentor (4–5 → ≤ 1 lần/tuần). Bỏ metric cảm tính. |
+| CP6 Mức can thiệp / quyết định | Nhờ AI so sánh ưu nhược điểm của 4 mức can thiệp cho bài toán Intern đọc hiểu codebase. Dùng AI kiểm tra logic lập luận trong phần quyết định. | AI liệt kê được rủi ro cụ thể cho từng mức, đặc biệt chỉ ra Agent có nguy cơ đọc sai nghiệp vụ và tự tác động code — giúp nhóm loại Agent nhanh. | AI ban đầu khuyến nghị Agent vì "có thể tự động hóa toàn bộ quá trình onboarding" — quá rộng, không phù hợp với phạm vi bài toán và vi phạm nguyên tắc chọn mức đơn giản nhất. | Giữ Workflow, không chọn Agent. Ghi rõ lý do: bài toán chỉ cần giúp Intern hiểu code nhanh hơn, không cần AI tự sửa code hay tự ra quyết định. Bổ sung lập luận vì sao Rule không đủ. |
 
 ---
 
@@ -197,21 +197,38 @@ Tiếp nhận câu hỏi tiếp theo
 Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ cho các câu 6.1–6.6 (không tính 6.7, câu này được chấm riêng ở tiêu chí C5). **Không dùng AI để viết thay.**
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
+       - Trong buổi học, tôi tham gia vào quá trình tìm kiếm, phân tích và đánh giá các vấn đề có thể ứng dụng AI để giải quyết. Tôi đã đưa ra ý tưởng sử dụng AI nhằm hỗ trợ thực tập sinh hiểu rõ hơn về công việc được giao, giúp họ tiết kiệm thời gian tìm hiểu và giảm sự phụ thuộc vào việc hỏi đồng nghiệp. Tôi nhận thấy đây là một vấn đề đáng quan tâm vì khi mới bắt đầu làm việc, thực tập sinh thường chưa quen với quy trình, tài liệu và cách xử lý công việc. Tuy nhiên, qua quá trình thảo luận, tôi cũng hiểu rằng ý tưởng của mình cần được phân tích kỹ hơn trước khi có thể đề xuất triển khai.
 
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+       - Ban đầu, tôi thường nghĩ rằng chỉ cần xác định được một khó khăn và đưa ra giải pháp phù hợp là đã có thể hình thành một ý tưởng AI tốt. Nhưng qua bài học, tôi nhận ra rằng cần phải hiểu rõ vấn đề trước khi nghĩ đến giải pháp. Một vấn đề cần xác định được ai là người gặp khó khăn, họ đang thực hiện công việc như thế nào, bước nào gây mất thời gian và vấn đề đó ảnh hưởng ra sao. Với ý tưởng hỗ trợ thực tập sinh, tôi nhận thấy mình mới chỉ xác định được nhu cầu chung mà chưa có số liệu cụ thể về số lần thực tập sinh phải hỏi đồng nghiệp, thời gian chờ được giải đáp hoặc mức độ ảnh hưởng đến hiệu suất công việc.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
+       - Một điều tôi thay đổi trong suy nghĩ là không còn đánh giá một ý tưởng chỉ dựa trên cảm giác rằng nó hữu ích. Ý tưởng hỗ trợ thực tập sinh của tôi không được nhóm lựa chọn, ban đầu điều này khiến tôi nhận ra rằng một ý tưởng dù có ý nghĩa với cá nhân vẫn chưa chắc là vấn đề ưu tiên đối với cả nhóm. Sau khi nhìn lại, tôi hiểu rằng việc lựa chọn vấn đề cần dựa trên mức độ ảnh hưởng, tần suất xảy ra, khả năng kiểm chứng và tính khả thi. Tôi không nên cố gắng bảo vệ ý tưởng của mình chỉ vì tôi thấy nó tốt, mà cần xem xét nó một cách khách quan và sẵn sàng thay đổi khi chưa có đủ bằng chứng.
 
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+       - Qua buổi học, tôi hiểu rằng AI có thể hỗ trợ con người trong việc phân tích thông tin, tìm kiếm hướng giải quyết và tiết kiệm thời gian xử lý công việc. Tuy nhiên, AI không phải lúc nào cũng đưa ra câu trả lời chính xác hoặc phù hợp với hoàn cảnh thực tế. Một câu trả lời có vẻ hợp lý vẫn cần được kiểm tra lại bằng dữ liệu và thông tin đáng tin cậy. Tôi nhận ra rằng không nên phụ thuộc hoàn toàn vào những gì AI đề xuất, đặc biệt khi vấn đề liên quan đến quy trình làm việc hoặc quyết định của con người. AI nên đóng vai trò là công cụ hỗ trợ tư duy và xử lý công việc, còn con người vẫn cần chịu trách nhiệm kiểm tra và đưa ra quyết định cuối cùng.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
+       - Nếu được thực hiện lại bài tập, tôi sẽ dành nhiều thời gian hơn cho việc tìm hiểu và thu thập bằng chứng trước khi đưa ra ý tưởng. Đối với vấn đề hỗ trợ thực tập sinh, tôi sẽ tìm hiểu xem họ thường gặp khó khăn ở những công việc nào, tần suất phải hỏi đồng nghiệp ra sao và mỗi lần chờ giải đáp mất bao nhiêu thời gian. Tôi cũng muốn tìm hiểu ý kiến từ cả thực tập sinh và người hướng dẫn để có góc nhìn đầy đủ hơn. Khi đã có những thông tin này, tôi mới đánh giá liệu vấn đề có đủ quan trọng để giải quyết hay không và liệu AI có thực sự là phương án phù hợp.
 
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+       - Bài học lớn nhất tôi rút ra là cần bắt đầu từ vấn đề thực tế thay vì bắt đầu từ công nghệ. Trước đây, khi nghĩ đến AI, tôi thường tập trung vào việc AI có thể làm được những gì. Nhưng sau buổi học, tôi hiểu rằng điều quan trọng hơn là xác định đúng vấn đề, hiểu quy trình hiện tại, tìm ra điểm nghẽn và xác định cách đo lường hiệu quả. Không phải vấn đề nào cũng cần sử dụng AI, và không phải ý tưởng nào cũng nên triển khai ngay. Một giải pháp tốt cần có cơ sở thực tế, phạm vi rõ ràng và tiêu chí đánh giá cụ thể. Tôi nghĩ đây là cách tư duy quan trọng mà mình cần tiếp tục rèn luyện khi học và làm việc trong lĩnh vực AI.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
-
+       - Đối với ý tưởng hỗ trợ thực tập sinh, vấn đề tôi muốn giải quyết là việc thực tập sinh chưa hiểu rõ nhiệm vụ và quy trình làm việc, dẫn đến phải hỏi đồng nghiệp nhiều lần. Quy trình hiện tại thường bắt đầu từ việc thực tập sinh nhận nhiệm vụ, tự tìm hiểu tài liệu, sau đó hỏi người hướng dẫn hoặc đồng nghiệp khi gặp khó khăn và chờ được giải đáp. Để đánh giá vấn đề, tôi cần đo số lần thực tập sinh phải hỏi, thời gian chờ giải đáp và thời gian cần thiết để hiểu và hoàn thành nhiệm vụ. Nếu sử dụng AI, tôi chỉ muốn AI hỗ trợ giải thích thông tin và hướng dẫn dựa trên tài liệu được cung cấp, không thay thế người hướng dẫn hoặc tự đưa ra quyết định thay con người. Hiện tại, tôi chưa đủ dữ liệu để xác định chính xác mức độ can thiệp AI phù hợp. Vì vậy, tôi lựa chọn Not Yet thay vì Go, bởi cần thu thập thêm dữ liệu và xác định rõ hiệu quả mong muốn trước khi quyết định phát triển giải pháp.
 ---
 
 ## 7. Tài liệu tham khảo
+       - À, mình hiểu rồi! Bạn muốn mục 7 – References (Tài liệu tham khảo) trong báo cáo, tức là một danh sách tài liệu được trình bày đúng định dạng để đưa thẳng vào cuối bài.
 
--
+Bạn có thể sử dụng nội dung sau:
+
+## 7. References
+
+       1\. Google People + AI Research (PAIR). (2021). People + AI Guidebook. Google. [https://pair.withgoogle.com/guidebook-v2/](https://pair.withgoogle.com/guidebook-v2/?utm_source=chatgpt.com)
+
+       2\. Tabassi, E. (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0). National Institute of Standards and Technology (NIST). [https://doi.org/10.6028/NIST.AI.100-1](https://doi.org/10.6028/NIST.AI.100-1?utm_source=chatgpt.com)
+
+       3\. Miao, F., & Holmes, W. (2023). Guidance for Generative AI in Education and Research. UNESCO. [https://doi.org/10.54675/EWZM9535](https://doi.org/10.54675/EWZM9535?utm_source=chatgpt.com)
+
+       4\. OECD. (2024). OECD AI Principles. Organisation for Economic Co-operation and Development. [https://oecd.ai/en/ai-principles](https://oecd.ai/en/ai-principles?utm_source=chatgpt.com)
