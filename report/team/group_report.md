@@ -75,7 +75,7 @@ Ghi chú chấm (theo dữ liệu trong file Trường Chính): #4 có bằng ch
 
 **Vì sao loại các candidate còn lại:** #4 (30) — bằng chứng và impact mạnh nhất nhóm nhưng chỉ 1/4 thành viên thật sự gặp; kiểm chứng CP4 khó trong buổi (cần bạn đang thực tập thật để phỏng vấn); giữ làm hướng tiếp theo nếu nhóm ưu tiên impact hơn tính kiểm chứng được. #6 (25) — chưa vẽ được quy trình chi tiết; chính card ghi nghi vấn "quy tắc phân loại cố định là đủ" — nếu đúng, bài dừng sớm ở mức can thiệp. #1 (Nguyên — gom tài liệu ôn thi) — số liệu toàn ước lượng hồi tưởng, chưa bấm giờ và chưa xác nhận người khác cùng pain. #10 (Hưng) — một phần nghiệm thuộc coach sửa đề, ngoài quyền nhóm. #7–#9 (Trung) — chưa có dấu hiệu thật (toàn "ước tính/giả thuyết, cần xác minh").
 
-**Xử lý bất đồng (nếu có)
+**Xử lý bất đồng (nếu có):**
 
 ---
 
