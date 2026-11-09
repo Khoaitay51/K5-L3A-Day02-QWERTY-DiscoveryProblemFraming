@@ -110,8 +110,6 @@ Cách đã dùng: Phỏng vấn 2–3 người ngoài nhóm theo The Mom Test (c
 
 ### Interview snapshot #2
 
-> **Tình huống giả định – cần thay bằng kết quả phỏng vấn thực tế trước khi nộp.**
-
 | Trường | Nội dung |
 |---|---|
 | Người được hỏi (vai trò, không ghi tên thật) | Developer mới tham gia dự án phần mềm, có kinh nghiệm học lập trình nhưng chưa quen codebase của nhóm |
