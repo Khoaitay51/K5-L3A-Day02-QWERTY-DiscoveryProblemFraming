@@ -37,6 +37,19 @@ Cách ghi: theo vai trò (vd. "Intern backend, công ty outsource ~100 người"
 - "Nếu có công cụ tự vẽ luồng dữ liệu, bạn có dùng không?" → câu hỏi giả định, người ta sẽ nói "có" cho lịch sự.
 - "Bạn thấy ý tưởng này hay không?" → lời khen không phải bằng chứng.
 
+## Phương án nhanh: micro survey 5–10 người (Google Form, ~3 phút/người)
+
+Gửi cho bạn học **nhóm khác** / người quen đã từng là Intern hoặc dev mới. Mọi câu hỏi về chuyện đã xảy ra.
+
+1. Bạn đã từng làm Intern/dev mới trong một dự án có sẵn code chưa? (Có / Chưa → dừng)
+2. Lần gần nhất nhận task sửa tính năng có sẵn, bạn mất bao lâu để biết chắc phải sửa file/hàm/bảng nào? (< 15' / 15–30' / 30–60' / 60–90' / > 90')
+3. Trong việc đó, bước nào tốn thời gian nhất? (Hiểu yêu cầu ticket / Dò từ giao diện xuống code / Lần theo luồng qua nhiều file / Tìm quy ước ngầm của nhóm / Chờ người trả lời)
+4. Trong tuần làm việc gần nhất, bạn hỏi Mentor/Senior về "code chạy qua đâu" mấy lần? (0 / 1 / 2–3 / 4–5 / > 5)
+5. Bạn đã từng sửa thiếu chỗ hoặc làm sai quy ước ngầm của nhóm chưa? (Chưa / 1 lần / ≥ 2 lần)
+6. Dự án đó có tài liệu kiến trúc/quy ước không? (Không có / Có nhưng lỗi thời / Có và dùng được)
+7. Công ty có cho đưa source code vào công cụ AI bên ngoài không? (Cấm / Chỉ công cụ được duyệt / Không quy định / Không biết)
+8. (Tự do) Kể ngắn lần gần nhất bạn bị "lạc" trong code của dự án.
+
 ## Mẫu Interview Snapshot (copy cho mỗi người)
 
 | Trường | Nội dung |
