@@ -131,16 +131,16 @@ HIỆN TẠI — 60–90 phút/buổi (phân bổ ước lượng hồi tưởng
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Pitch 3 card cá nhân: (1) gom tài liệu ôn thi ĐSTT — quy trình 7 bước ~50'/lần, nghẽn lục nhóm Zalo ~10'; (2) tổng hợp bộ ôn 4 nguồn 60–120'/lần; (3) tự học sau buổi 60–90'/buổi. | 3 card vào bảng pitch 12 candidate với số #1, #2, #3 (group_report mục 2.1). #1 vào cluster A, #2 vào cluster B; cả hai không vào shortlist vì đánh giá là No AI/Rule đã giải được. |
+| Phản biện bài của bạn khác | **Câu hỏi tôi đã đặt:** (1) Hỏi Trường Chính (#4): *"Nếu có sẵn sơ đồ luồng code thì Intern có làm theo máy móc mà không thực sự hiểu kiến trúc dự án không?"*; (2) Hỏi Quang Trung (#7): *"Lần gần nhất bạn phải viết biên bản họp mất chính xác bao lâu, có log hay file cũ đối chiếu không?"*; (3) Hỏi Tiến Hưng (#12): *"Nhóm mình không có quyền quản trị LMS/Zalo của ban tổ chức thì làm sao can thiệp?"* | Câu hỏi (1) được nhóm chấp nhận → quy trình tương lai CP5 thêm 2 lớp kiểm tra con người (HITL). #7 bị đánh dấu "ước tính, cần xác minh" và loại khỏi shortlist; #12 bị loại vì nhóm không có quyền can thiệp hệ thống của ban tổ chức. |
+| Nhận phản biện | **Câu hỏi tôi nhận được:** (1) Tiến Hưng hỏi #1: *"Gắn 1 link Google Drive chung lên mô tả nhóm Zalo (`No AI`) có giải quyết xong ngay không?"*; (2) Trường Chính hỏi #2: *"Bộ ôn tập tổng hợp từ 4 nguồn đo chất lượng đầu ra thế nào để biết không bị sót công thức?"*; (3) Quang Trung hỏi #3: *"Bước nghẽn thật sự là không tìm thấy tài liệu hay do chưa hiểu khái niệm trên lớp?"* | **Tôi đã sửa gì:** Card #1 ghi rõ phương án không dùng AI (thư mục lớp + bảng chỉ mục + quy ước đặt tên file) phải thử trước khi xét AI; Card #2 thêm metric chất lượng "checklist phủ 100% chủ đề trong đề cương"; Card #3 ghi rõ "Điều còn chưa chắc" và kế hoạch bấm giờ từng bước để tách hai nguyên nhân nghẽn. |
+| Gom cluster / cây OST | **Người chính CP3.** Dựng bảng pitch 12 candidate từ top-3 của 4 thành viên; gom 6 cluster A–F; vẽ cây OST với 1 outcome ("giảm thời gian gom và tổng hợp thông tin rải rác") và 6 nhánh opportunity đều là pain; gạch 3 ý là solution đội lốt opportunity (chatbot hỏi đáp codebase, tự động sinh bộ đề cương/biên bản, dashboard tổng hợp thông báo); lập bảng chấm điểm 7 tiêu chí cho shortlist. | Trở thành group_report mục 2.1–2.4 (commit `2dcaf1d`, `9b1a71e`, `60404ac`, `f1f3cb5` trên repo nhóm, được nhóm trưởng hợp nhất lên main trong `6489c04`). |
+| Chọn candidate problem | Đề xuất shortlist 3 candidate từ Problem Card của Trường Chính và đề xuất ban đầu chọn #5 (so sánh thư viện); sau buổi pitch và chấm điểm, đồng ý chốt **#4** (32/35 điểm) vì bằng chứng đau mạnh hơn (75'/task, tác động tới cả Intern lẫn Mentor). | #4 trở thành problem của cả nhóm, dùng từ CP4 kiểm chứng đến CP6 quyết định. |
+| Kiểm chứng / research | Hỗ trợ CP4 (Tiến Hưng là người chính): phản biện assumption map A1–A6, tham gia thảo luận tại bàn (với luồng đơn giản thì IDE/README/lịch sử commit có thể đã đủ), tự mở và đối chiếu 3 nguồn research (Swimm, DeepWiki, Ju et al. 2021). | Nhóm thu hẹp phạm vi vào ticket có luồng dữ liệu qua nhiều tầng; metric đổi thành chỉ đếm "câu hỏi về luồng cơ bản". |
+| Quy trình nhóm | Hỗ trợ CP5 (Trường Chính là người chính): phản biện quy trình trước/sau với câu hỏi về nguy cơ Intern làm theo sơ đồ máy móc; kiểm tra bảng before/after (75' → ~18', 5/5 → 3/5 bước thủ công). | Quy trình tương lai giữ đủ 2 lớp HITL (Intern kiểm trên IDE + Mentor duyệt phiếu 4 dòng) và phương án quay về No AI khi AI tóm tắt sai. |
+| Problem Statement | Góp ý giữ metric đo chất lượng bên cạnh tốc độ (bài học từ câu hỏi Trường Chính đặt cho card #2 của mình). | Problem Statement v1 thêm mục tiêu "≥ 5/6 phiếu xác nhận luồng được Mentor duyệt ngay lần đầu". |
+| Mức can thiệp AI | Tham gia chốt chọn **Workflow** (Rule quét cây import để tìm file + AI tóm tắt luồng có dẫn chứng); đồng tình không chọn Agent vì bài toán chưa cần AI tự sửa code. | Group_report mục 6: nhóm chọn Workflow kèm lý do không chọn mức đơn giản hơn. |
+| Quyết định | Đồng ý **Not Yet**: baseline hiện chủ yếu từ trải nghiệm của một thành viên và một buổi phỏng vấn, chưa có pilot; còn rào cản A5 (chính sách đưa mã nguồn vào công cụ AI). | Group_report mục 8: Not Yet kèm điều kiện kiểm chứng và ngưỡng dừng pilot (2 tuần / 6 ticket / ≥ 5/6 phiếu). |
 
 ---
 
@@ -150,10 +150,11 @@ HIỆN TẠI — 60–90 phút/buổi (phân bổ ước lượng hồi tưởng
 |---|---|---|---|---|
 | CP1 Scan | AI phỏng vấn bằng câu hỏi; mình kể trải nghiệm, AI chuyển thành bảng Job Story | Nhắc 4 lăng kính; diễn đạt đúng dạng "Khi… tôi muốn… để…" | Problem AI tự gợi ý (ghép slide nhóm, chốt giờ nhóm…) không khớp trải nghiệm thật | Bỏ hết ý AI, chỉ giữ nội dung mình kể; số chưa đo thì ghi "chưa đo" |
 | CP2 Problem Card | AI đóng vai PM hoài nghi phản biện card #1 | Chỉ ra bottleneck còn chung chung, metric chưa đo được | Không biết bối cảnh Zalo/Drive của lớp mình nên chỉ hỏi được ở mức chung | Tự chốt bước 3 là nghẽn chính; tự đặt target ≤ 15' và cách đo bấm giờ |
-| CP4 Research | Chưa làm (chờ nhóm) | | | |
-| CP5 Quy trình | Chưa làm (phần nhóm) | | | |
-| CP5–6 Problem Statement | Chưa làm (phần nhóm) | | | |
-| CP6 Mức can thiệp / quyết định | Chưa làm (phần nhóm) | | | |
+| CP3 Hội tụ nhóm | Soạn bảng pitch 12 candidate, cluster, cây OST, bảng chấm điểm từ dữ liệu của 4 file cá nhân; trợ lý AI hỗ trợ gom và định dạng bảng | Nhanh khi gom 12 candidate thành 6 cluster và trình bày bảng | AI không có cuộc thảo luận thật của nhóm, không thể tự chốt chọn/loại | Nội dung pitch, chấm điểm và chốt candidate do nhóm quyết định trong buổi; AI chỉ giúp trình bày |
+| CP4 Research | Đọc assumption map và 3 nguồn nhóm đưa (Swimm, DeepWiki, Ju et al.); hỏi AI giải thích nhanh khái niệm tài liệu gắn với code (code-coupled docs) và nghiên cứu onboarding | Hiểu nhanh mỗi nguồn giải được bước nào trong quy trình | Tóm tắt của AI còn chung chung, không nói được giới hạn cụ thể của từng công cụ | Tự mở từng link kiểm tra trước khi nhận nhận định vào bảng |
+| CP5 Quy trình | Nhờ AI gợi ý góc phản biện cho quy trình trước/sau của Trường Chính | Nhắc các góc hỏi về bước con người kiểm tra và phương án quay về | AI hay viết lại thành lời khen giải pháp thay vì chỉ lỗ hổng | Chỉ lấy câu hỏi, không lấy lời viết; phản biện trực tiếp trong buổi nhóm |
+| CP5–6 Problem Statement | Hỏi AI các lỗ hổng của Problem Statement v0 từ góc nhìn người đọc mới | Nhận ra v0 mới đo tốc độ, chưa đo độ chính xác của phiếu xác nhận | AI gợi ý viết lại toàn bộ theo văn phong quảng cáo giải pháp | Không lấy câu chữ của AI; chỉ giữ gợi ý thêm metric chất lượng (≥ 5/6 phiếu) |
+| CP6 Mức can thiệp / quyết định | Đối chiếu 4 mức No AI / Rule / Workflow / Agent với bài của nhóm trước khi chốt cùng nhóm | Giúp so sánh nhanh điểm khác nhau giữa Rule (quét cây import) và Workflow (tóm tắt ngữ cảnh) | AI có xu hướng đề xuất mức phức tạp hơn mức cần thiết (Agent) | Giữ mức Workflow nhóm chọn và quyết định Not Yet kèm ngưỡng dừng đo được |
 
 ---
 
@@ -161,11 +162,19 @@ HIỆN TẠI — 60–90 phút/buổi (phân bổ ước lượng hồi tưởng
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Điều mình nhớ nhất là các bài cùng gọi là "mất thời gian tìm thông tin" nhưng chỗ nghẽn nằm khác nhau. Bài ôn thi của mình nghẽn ở việc lục nhiều nguồn rải rác (Zalo, Drive, tin nhắn); bài của Trường Chính nghẽn ở việc lần theo luồng qua 10–15 file và tìm quy ước ngầm; một số bài của Quang Trung phần lớn chưa có số đo. Khi gom cluster, mình thấy pain trùng nhau có thể nằm ở domain hoàn toàn khác — đó là lý do cây OST gom theo pain thay vì theo công cụ. Bảng chấm điểm 7 tiêu chí cũng cho mình thấy "pain có bằng chứng" là tiêu chí tách các candidate rõ nhất, hơn là cảm nhận "bài nào hay hơn".
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Có. Lúc gom cluster và vẽ OST, nhóm xuất hiện vài ý như "chatbot hỏi đáp kiến trúc codebase", "tự động sinh bộ đề cương ôn tập và biên bản họp", "dashboard tổng hợp thông báo và kiểm tra bài nộp". Nhóm nhận ra đây là solution đang đội lốt opportunity nên gạch bỏ và chuyển lại thành pain tương ứng: thông tin nằm rải rác nhiều nơi (Opportunity A) và phải tự dò từng mục trước khi nộp (Opportunity D). Việc gạch bỏ này giúp phần chấm điểm sau đó so sánh đúng các candidate là pain thật.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Có. Khi pitch card #1 (gom tài liệu ôn thi), Tiến Hưng hỏi: "Gắn 1 link Google Drive chung lên mô tả nhóm Zalo (`No AI`) có giải quyết xong ngay không?". Câu hỏi làm mình nhận ra bài của mình có thể giải bằng một quy ước lưu trữ đơn giản chứ chưa cần AI. Mình đã sửa card ghi rõ phương án không dùng AI (thư mục lớp + bảng chỉ mục + quy ước đặt tên file `tuanX_baiY`) phải thử trước, và không giữ candidate này trong shortlist — nhóm chốt #4 của Trường Chính vì bằng chứng đau mạnh hơn. Câu hỏi đó cũng khiến nhóm đặt nguyên tắc khi chấm điểm: luôn hỏi "mức No AI/Rule đã đủ chưa" trước khi tính tới AI.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Có hai điều. Thứ nhất, research Ju et al. (2021) cho thấy việc Intern hỏi Mentor không hẳn là xấu — nó còn giúp người mới xây tự tin và hòa nhập nhóm, nên nhóm đổi metric từ "giảm số lần hỏi" thành "chỉ đếm câu hỏi về luồng dữ liệu cơ bản". Thứ hai, từ thảo luận tại bàn và buổi phỏng vấn, với ticket đơn giản thì IDE, README và lịch sử commit có thể đã đủ, còn với ticket có luồng qua nhiều tầng thời gian có thể lên tới 2–4 tiếng — cao hơn mốc 75 phút ban đầu. Cả hai phát hiện đều thu hẹp phạm vi bài toán so với điều nhóm giả định lúc đầu.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
@@ -177,6 +186,8 @@ Nếu làm lại, tôi sẽ ghi thời gian từng bước trước, rồi mới
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+Bài nhóm chọn vấn đề: thực tập sinh mới nhận ticket sửa tính năng có sẵn mất khoảng 75 phút/task để lần theo 10–15 file, hàm, bảng DB và các quy ước ngầm của nhóm. Quy trình 5 bước được đo thời gian từng bước, cho thấy hai chỗ nghẽn là lần theo luồng code (35 phút) và tìm quy ước ngầm (15 phút), chiếm 50/75 phút. Nhóm đặt metric: thời gian xác định luồng giảm xuống dưới 20 phút/task, câu hỏi về luồng cơ bản giảm xuống ≤ 1 lần/tuần, và ít nhất 5/6 phiếu xác nhận luồng được Mentor duyệt ngay lần đầu. Boundary: AI chỉ được tóm tắt luồng kèm dẫn chứng file/hàm thật, không tự sửa code hay suy diễn quy tắc; Intern bắt buộc tự kiểm tra trên IDE (HITL 1) và Mentor duyệt phiếu xác nhận 4 dòng (HITL 2). Mức can thiệp chọn là Workflow: dùng Rule quét cây import để tìm file liên quan, AI tổng hợp luồng, con người giữ quyền quyết định. Quyết định cuối là Not Yet vì baseline mới từ trải nghiệm của một thành viên và một buổi phỏng vấn, chưa có pilot, còn rủi ro về chính sách đưa mã nguồn vào công cụ AI. Nếu pilot 2 tuần không đạt ngưỡng 5/6 phiếu và dưới 20 phút/task thì quay về giải pháp No AI kết hợp Rule.
+
 ---
 
 ## 7. Tài liệu tham khảo
@@ -185,3 +196,7 @@ Nếu làm lại, tôi sẽ ghi thời gian từng bước trước, rồi mới
 - [RULES.md](../../RULES.md), [RUBRIC.md](../../RUBRIC.md), [SUBMISSION.md](../../SUBMISSION.md) — luật làm bài, cách chấm, quy tắc nộp.
 - [Sổ bằng chứng CP1–CP2](../assets/cp1-cp2-evidence-log.md) — nguồn của từng số liệu trong bài.
 - [Sổ hoạt động CP3–CP7](../assets/cp3-cp7-personal-notes.md) — khung ghi chép cho buổi nhóm.
+- Ju, A., Sajnani, H., Kelly, S., & Herzig, K. (2021). *A Case Study of Onboarding in Software Teams: Tasks and Strategies*. ICSE 2021 — https://arxiv.org/abs/2103.05055 (nguồn research CP4 của nhóm, mục 3.3 group_report).
+- Swimm Documentation — *Benefits of code-coupled documentation*: https://docs.swimm.io/new-to-swimm/benefits-of-code-coupled-documentation (nguồn research CP4 của nhóm).
+- DeepWiki (Cognition / Devin) — https://docs.devin.ai/work-with-devin/deepwiki (nguồn research CP4 của nhóm).
+- Google PAIR — *People + AI Guidebook*: https://pair.withgoogle.com/ (khung tham chiếu cho CP6).
