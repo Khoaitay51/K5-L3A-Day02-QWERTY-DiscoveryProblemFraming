@@ -219,12 +219,6 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 ---
 
 ## 7. Tài liệu tham khảo
-       - À, mình hiểu rồi! Bạn muốn mục 7 – References (Tài liệu tham khảo) trong báo cáo, tức là một danh sách tài liệu được trình bày đúng định dạng để đưa thẳng vào cuối bài.
-
-Bạn có thể sử dụng nội dung sau:
-
-## 7. References
-
        1\. Google People + AI Research (PAIR). (2021). People + AI Guidebook. Google. [https://pair.withgoogle.com/guidebook-v2/](https://pair.withgoogle.com/guidebook-v2/?utm_source=chatgpt.com)
 
        2\. Tabassi, E. (2023). Artificial Intelligence Risk Management Framework (AI RMF 1.0). National Institute of Standards and Technology (NIST). [https://doi.org/10.6028/NIST.AI.100-1](https://doi.org/10.6028/NIST.AI.100-1?utm_source=chatgpt.com)
@@ -232,3 +226,5 @@ Bạn có thể sử dụng nội dung sau:
        3\. Miao, F., & Holmes, W. (2023). Guidance for Generative AI in Education and Research. UNESCO. [https://doi.org/10.54675/EWZM9535](https://doi.org/10.54675/EWZM9535?utm_source=chatgpt.com)
 
        4\. OECD. (2024). OECD AI Principles. Organisation for Economic Co-operation and Development. [https://oecd.ai/en/ai-principles](https://oecd.ai/en/ai-principles?utm_source=chatgpt.com)
+
+---
