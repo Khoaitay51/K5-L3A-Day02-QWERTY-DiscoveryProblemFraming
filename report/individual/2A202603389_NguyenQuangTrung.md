@@ -1,9 +1,5 @@
 # Báo cáo cá nhân — 2A202603389_NguyenQuangTrung
 
-> Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
-> Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
-> Mỗi thành viên một file trong `report/individual/` trên repo nhóm: copy template này thành file mới, điền, rồi commit bằng tài khoản GitHub của bạn. Không viết hộ người khác.
-
 ## 1. Thông tin học viên
 
 - Họ tên: Nguyễn Quang Trung
@@ -20,18 +16,15 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | # | Lăng kính | Job Story: Khi… tôi muốn… để… | Ai chịu ảnh hưởng? | Dấu hiệu thật (thời gian, tần suất, số người, bằng chứng) |
 |---:|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| 1 |Lặp lại + Tốn thời gian| Khi kết thúc ngày làm việc, tôi muốn tổng hợp thông tin từ ghi chú, tin nhắn và danh sách nhiệm vụ thành báo cáo tự động để tiết kiệm thời gian và giúp quản lý nắm được tiến độ.| Nhân viên, trưởng nhóm, quản lý.|Giả thuyết: Mỗi nhân viên mất 15–30 phút/ngày để viết báo cáo; thực hiện 5 ngày/tuần. Bằng chứng cần thu thập: Báo cáo cũ, file Excel, lịch sử giao việc.|
+| 2 |Lặp lại + Tốn thời gian|Khi nhận dữ liệu từ nhiều nguồn như PDF, hình ảnh và email, tôi muốn trích xuất thông tin và đưa vào Excel để giảm thao tác nhập liệu và hạn chế sai sót.|Nhân viên nhập liệu, kế toán, nhân viên hành chính.|Giả thuyết: Xử lý 30–100 bản ghi/ngày, mỗi bản ghi mất 1–3 phút. Bằng chứng: File Excel, hóa đơn, biểu mẫu, email.|
+| 3 |Lặp lại + Pain từ người khác|Khi khách hàng liên tục đặt những câu hỏi giống nhau, tôi muốn tìm kiếm câu trả lời từ tài liệu có sẵn để phản hồi nhanh chóng và giúp khách hàng không phải chờ đợi.|Nhân viên chăm sóc khách hàng, khách hàng, quản lý dịch vụ.|Giả thuyết: 50–100 câu hỏi/ngày tại bộ phận có lượng khách lớn; mỗi câu trả lời mất 2–5 phút. Bằng chứng: Lịch sử chat, email, danh sách FAQ.|
+| 4 |Lặp lại + Tốn thời gian + Tổng hợp thông tin|Khi nhận nhiều email và tin nhắn công việc mỗi ngày, tôi muốn tự động phân loại theo nội dung và mức độ ưu tiên để xử lý công việc quan trọng trước và tránh bỏ sót thông tin.|Nhân viên văn phòng, trưởng nhóm, khách hàng, đồng nghiệp.|Giả thuyết: 30–100 email/ngày; mất 30 giây–2 phút để đọc và phân loại mỗi email. Bằng chứng: Hộp thư đến, email chưa đọc, lịch sử phản hồi.|
+| 5 |Tốn thời gian + Cần đọc nhiều thông tin|Khi phải học tập hoặc nghiên cứu bằng những tài liệu dài, tôi muốn trích xuất nội dung chính, khái niệm quan trọng và kiến thức cần ghi nhớ để hiểu tài liệu nhanh hơn.|Sinh viên, người mới đi làm, người nghiên cứu.|Giả thuyết: Một tài liệu dài 30–100 trang có thể mất 1–3 giờ để đọc và ghi chú. Bằng chứng: Tài liệu PDF, Word, ghi chú học tập.|
+| 6 |Tốn thời gian + Cần đọc, tổng hợp nhiều thông tin|Khi cần nghiên cứu một chủ đề từ nhiều website khác nhau, tôi muốn tổng hợp và so sánh thông tin từ các nguồn đáng tin cậy để có cái nhìn tổng quan và đưa ra kết luận chính xác hơn.|Sinh viên, nhân viên nghiên cứu, người làm nội dung, quản lý dự án.|Giả thuyết: Phải đọc 5–20 website, mất 2–4 giờ cho một lần nghiên cứu. Bằng chứng: Lịch sử tìm kiếm, danh sách URL, tài liệu tham khảo.|
+| 7 |Lặp lại + Tốn thời gian + Pain từ người khác + Tổng hợp thông tin|Khi tham gia các cuộc họp có nhiều người trao đổi, tôi muốn tự động ghi lại ý chính, quyết định và nhiệm vụ của từng thành viên để tránh bỏ sót thông tin và giúp cả nhóm nắm rõ công việc sau cuộc họp.|Nhân viên, trưởng nhóm, quản lý, người không tham dự cuộc họp.|Giả thuyết: 2–5 cuộc họp/ngày; mỗi cuộc họp mất thêm 15–30 phút để viết biên bản. Bằng chứng: File ghi âm, ghi chú, biên bản họp cũ.|
 
-**Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
-
--
+** AI có đề xuất thêm một vấn đề thứ 8 nữa nhưng tôi đã loại vấn đề số 8 vì phạm vi xử lý khá rộng, dữ liệu phản hồi phân tán trên nhiều nền tảng và khó thu thập để kiểm chứng. Ngoài ra, vấn đề có phần trùng lặp với số 3 (xử lý câu hỏi khách hàng lặp lại). Vì vậy, nhóm ưu tiên 7 vấn đề đầu tiên vì chúng có quy trình cụ thể hơn, dễ quan sát, thu thập dữ liệu và đánh giá hiệu quả giải pháp AI hơn.**
 
 ---
 
