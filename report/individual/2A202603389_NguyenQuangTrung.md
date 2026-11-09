@@ -34,84 +34,128 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 
 | Rank | Problem | Vì sao chọn | Điều còn chưa chắc |
 |---:|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| 1 |Ghi biên bản cuộc họp và tổng hợp công việc cần làm|Hầu hết cuộc họp đều cần ghi lại nội dung, quyết định và phân công công việc. Tốn thời gian và dễ bỏ sót thông tin.|Chưa biết chính xác mỗi cuộc họp mất bao lâu để ghi biên bản và mức độ chính xác của bản ghi tự động.|
+| 2 |Đọc và tóm tắt tài liệu dài|Người đọc phải dành nhiều thời gian để đọc, tìm ý chính và tổng hợp thông tin từ tài liệu. AI có thể hỗ trợ tóm tắt nhanh.|Chưa biết người dùng cần bản tóm tắt ngắn hay chi tiết, và yêu cầu độ chính xác đến mức nào.|
+| 3 | Trả lời các câu hỏi khách hàng lặp đi lặp lại|Nhân viên chăm sóc khách hàng phải trả lời nhiều câu hỏi giống nhau, gây tốn thời gian và làm chậm phản hồi.|Chưa biết tỷ lệ câu hỏi lặp lại và liệu có thể xây dựng bộ câu trả lời đủ chính xác hay không.|
 
 ### Problem Card #1
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story |Khi tham gia hoặc kết thúc một cuộc họp, tôi muốn ghi lại nội dung chính, các quyết định và công việc được giao, để mọi người nắm được kết quả và không bỏ sót nhiệm vụ.|
+| Actor |Nhân viên tham gia họp, thư ký cuộc họp, trưởng nhóm, quản lý.|
+| Thời điểm / bối cảnh |Trong hoặc ngay sau các cuộc họp nhóm, họp dự án, họp công việc.|
+| Quy trình hiện tại (3–7 bước) |1. Tham gia cuộc họp. 2. Nghe và ghi chép nội dung. 3. Lọc ra những ý quan trọng. 4. Tổng hợp các quyết định. 5. Ghi lại người phụ trách và thời hạn. 6. Soạn biên bản. 7. Gửi biên bản cho mọi người.|
+| Bottleneck (bước nào, mất bao nhiêu phút) |Bước 3–6: Phải nghe lại, lọc thông tin và viết lại nội dung. Ước tính 15–30 phút sau mỗi cuộc họp (cần xác minh thực tế).|
+| Impact (nếu không giải thì sao) |Mất thời gian, bỏ sót quyết định hoặc nhiệm vụ, người tham gia hiểu sai nội dung và khó theo dõi tiến độ công việc.|
+| Success metric (baseline → target) |Thời gian tạo biên bản: 15–30 phút → dưới 5 phút; tỷ lệ nhiệm vụ được ghi nhận đầy đủ: đo baseline → mục tiêu ít nhất 95%.|
+| Phương án không dùng AI |Sử dụng mẫu biên bản có sẵn trên Word hoặc Google Docs; phân công một người ghi chép và sử dụng checklist để tránh bỏ sót.|
+| Giả thuyết về AI (nếu có) |AI chuyển giọng nói thành văn bản, tóm tắt nội dung, nhận diện quyết định và trích xuất danh sách công việc, người phụ trách, thời hạn.|
+| Cảm nhận nhanh |Workflow kết hợp LLM Feature.|
 
 Quy trình nháp hiện tại:
 
-```text
-
+```
+Bắt đầu cuộc họp
+       ↓
+Nghe nội dung cuộc họp
+       ↓
+Ghi chép thủ công
+       ↓
+Lọc ý chính và quyết định
+       ↓
+Xác định người phụ trách, thời hạn
+       ↓
+Soạn biên bản cuộc họp
+       ↓
+Gửi biên bản cho mọi người
+       ↓
+Kết thúc
 ```
 
 ### Problem Card #2
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story |Khi phải đọc một tài liệu dài có nhiều thông tin, tôi muốn nhanh chóng nắm được nội dung chính và các ý quan trọng, để tiết kiệm thời gian và hiểu được thông tin cần thiết.|
+| Actor |Sinh viên, nhân viên văn phòng, nhân viên nghiên cứu, người mới tiếp nhận công việc.|
+| Thời điểm / bối cảnh |Khi học tập, nghiên cứu, đọc báo cáo, tài liệu chuyên môn hoặc tiếp nhận tài liệu mới tại nơi làm việc.|
+| Quy trình hiện tại (3–7 bước) |1. Nhận tài liệu PDF hoặc Word. 2. Mở và đọc tài liệu. 3. Đánh dấu những đoạn quan trọng. 4. Ghi chú các ý chính. 5. Tổng hợp nội dung. 6. Viết lại thành bản tóm tắt.|
+| Bottleneck (bước nào, mất bao nhiêu phút) |Bước 2–5: Phải đọc nhiều trang, tìm kiếm thông tin và liên kết các ý. Ước tính 1–3 giờ cho một tài liệu dài (cần xác minh thực tế).|
+| Impact (nếu không giải thì sao) |Tốn nhiều thời gian, dễ bỏ sót ý quan trọng, khó ghi nhớ và khó tìm lại thông tin khi cần.|
+| Success metric (baseline → target) |Thời gian tóm tắt tài liệu: 1–3 giờ → dưới 15 phút; độ chính xác của các ý chính: mục tiêu ít nhất 90% theo đánh giá của người đọc.|
+| Phương án không dùng AI |Dùng chức năng tìm kiếm trong Word/PDF, đọc mục lục, sử dụng highlight và ghi chú thủ công.|
+| Giả thuyết về AI (nếu có) |AI đọc nội dung tài liệu, tóm tắt ý chính, trích xuất thông tin quan trọng và trả lời câu hỏi dựa trên tài liệu.|
+| Cảm nhận nhanh |LLM Feature|
 
 Quy trình nháp hiện tại:
 
-```text
-
+```
+Nhận tài liệu PDF / Word
+       ↓
+Mở và đọc tài liệu
+       ↓
+Tìm kiếm thông tin quan trọng
+       ↓
+Đánh dấu và ghi chú
+       ↓
+Tổng hợp các ý chính
+       ↓
+Viết bản tóm tắt
+       ↓
+Kiểm tra lại nội dung
+       ↓
+Kết thúc
 ```
 
 ### Problem Card #3
 
 | Trường | Nội dung |
 |---|---|
-| Job Story | Khi …, tôi muốn …, để … |
-| Actor | |
-| Thời điểm / bối cảnh | |
-| Quy trình hiện tại (3–7 bước) | |
-| Bottleneck (bước nào, mất bao nhiêu phút) | |
-| Impact (nếu không giải thì sao) | |
-| Success metric (baseline → target) | |
-| Phương án không dùng AI | |
-| Giả thuyết về AI (nếu có) | |
-| Cảm nhận nhanh | No AI / Rule / Workflow / Agent / Chưa biết |
+| Job Story |Khi khách hàng liên tục hỏi những câu hỏi giống nhau, tôi muốn có cách trả lời nhanh và chính xác, để giảm thời gian xử lý và nâng cao trải nghiệm khách hàng.|
+| Actor |Nhân viên chăm sóc khách hàng, nhân viên tư vấn, khách hàng, quản lý dịch vụ.|
+| Thời điểm / bối cảnh |Khi khách hàng liên hệ qua Facebook, website, email hoặc các nền tảng nhắn tin để hỏi về sản phẩm, giá cả, chính sách và dịch vụ.|
+| Quy trình hiện tại (3–7 bước) |1. Khách hàng gửi câu hỏi. 2. Nhân viên đọc và xác định nội dung. 3. Tìm kiếm thông tin liên quan. 4. Soạn câu trả lời. 5. Gửi phản hồi. 6. Tiếp tục xử lý câu hỏi tiếp theo.|
+| Bottleneck (bước nào, mất bao nhiêu phút) |Bước 2–4: Phải đọc, tìm thông tin và soạn lại câu trả lời dù nhiều câu hỏi giống nhau. Ước tính 2–5 phút/câu hỏi (cần xác minh thực tế).|
+| Impact (nếu không giải thì sao) |Nhân viên bị quá tải, khách hàng phải chờ lâu, chất lượng câu trả lời không đồng đều và có thể bỏ lỡ khách hàng tiềm năng.|
+| Success metric (baseline → target) |Thời gian phản hồi: 2–5 phút → dưới 1 phút đối với câu hỏi phổ biến; tỷ lệ câu trả lời chính xác: mục tiêu ít nhất 95% theo kiểm tra của nhân viên.|
+| Phương án không dùng AI |Xây dựng bộ câu hỏi thường gặp (FAQ), mẫu trả lời có sẵn và phân loại câu hỏi theo từng nhóm.|
+| Giả thuyết về AI (nếu có) |AI nhận diện câu hỏi, tìm thông tin trong bộ FAQ và đề xuất câu trả lời phù hợp để nhân viên kiểm tra trước khi gửi.|
+| Cảm nhận nhanh |LLM Feature kết hợp Workflow.|
 
 Quy trình nháp hiện tại:
 
-```text
-
+```
+Khách hàng gửi câu hỏi
+       ↓
+Nhân viên tiếp nhận tin nhắn
+       ↓
+Đọc và xác định nội dung
+       ↓
+Tìm kiếm thông tin liên quan
+       ↓
+Soạn câu trả lời
+       ↓
+Gửi phản hồi cho khách hàng
+       ↓
+Tiếp nhận câu hỏi tiếp theo
 ```
 
 ### Card muốn pitch nhất
 
-- Card số:
-- Vì sao:
-- Câu hỏi muốn nhóm phản biện:
+- Card số: Card #1 – Ghi biên bản cuộc họp
+- Vì sao: Đây là vấn đề dễ quan sát, xảy ra trong môi trường học tập và làm việc, có quy trình đầu vào và đầu ra rõ ràng. AI có thể hỗ trợ chuyển giọng nói thành văn bản, tóm tắt nội dung và trích xuất công việc cần làm. Có thể đo lường hiệu quả bằng thời gian tạo biên bản và mức độ đầy đủ của thông tin.
+- Câu hỏi muốn nhóm phản biện: Liệu AI có thể phân biệt chính xác nội dung thảo luận, quyết định cuối cùng và nhiệm vụ được giao không? Nếu AI nhận diện sai người phụ trách hoặc thời hạn thì giải pháp nên xử lý thế nào?
 
 ### AI đã phản biện card thế nào
 
 | Điểm yếu AI chỉ ra | Đồng ý? | Đã sửa gì |
 |---|---|---|
-| | | |
+|AI có thể nhận diện sai giọng nói, đặc biệt khi nhiều người nói cùng lúc hoặc có tiếng ồn.|Có|Bổ sung bước kiểm tra và chỉnh sửa nội dung sau khi AI tạo biên bản.|
+|AI có thể nhầm lẫn giữa ý kiến thảo luận, đề xuất và quyết định chính thức.|Có|Yêu cầu AI chia nội dung thành 3 phần riêng biệt: ý kiến thảo luận, quyết định và công việc cần thực hiện.|
+|AI có thể xác định sai người phụ trách hoặc thời hạn hoàn thành công việc.|Có|Bổ sung bước người tham gia xác nhận lại người phụ trách và deadline trước khi gửi biên bản.|
+|Không phải cuộc họp nào cũng cần ghi biên bản chi tiết, dẫn đến xử lý dư thừa thông tin.|Có|Giới hạn phạm vi ban đầu ở các cuộc họp nhóm, họp dự án có nội dung và nhiệm vụ cần theo dõi.|
+|Chưa có dữ liệu thực tế chứng minh AI giúp tiết kiệm thời gian so với cách làm thủ công.|Có|Đề xuất thử nghiệm trên một số cuộc họp, so sánh thời gian và độ đầy đủ của biên bản trước và sau khi dùng AI.|
 
 ---
 
