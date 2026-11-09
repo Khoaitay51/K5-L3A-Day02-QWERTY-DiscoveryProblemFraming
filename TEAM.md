@@ -15,7 +15,7 @@
 | 1 | Phạm Trường Chinh | 2A202603426 | Nhóm trưởng (fork repo, quản lý collaborator); tác giả candidate được chọn | Khoaitay51 |
 | 2 | Hoàng Bảo Nguyên | 2A202603384 | | |
 | 3 | Nguyễn Quang Trung | 2A202603389 | | |
-| 4 | Nguyễn Tiến Hưng | 2A202603365 | | tienhungw |
+| 4 | Nguyễn Tiến Hưng | 2A202603365 | Phụ trách kiểm chứng + research (CP4) | tienhungw |
 
 Không ghi email hay số điện thoại vào bảng này, vì repo có thể để public.
 
@@ -26,8 +26,8 @@ Gợi ý vai trò (một người có thể giữ nhiều vai): điều phối t
 | Checkpoint | Người chính | Người hỗ trợ | Sản phẩm |
 |---|---|---|---|
 | CP3 — Hội tụ nhóm | | | Cluster, cây OST, bảng chấm điểm |
-| CP4 — Kiểm chứng | | | Assumption map, snapshot hoặc survey |
-| CP4 — Research | | | Bảng research có link |
+| CP4 — Kiểm chứng | Nguyễn Tiến Hưng | | Assumption map, snapshot hoặc survey |
+| CP4 — Research | Nguyễn Tiến Hưng | | Bảng research có link |
 | CP5 — Quy trình trước/sau | | | Quy trình + bảng before/after |
 | CP5 — Problem Statement v0 | | | Problem Statement v0 |
 | CP6 — Mức can thiệp + Problem Statement v1 | | | Ma trận, AI Canvas, eval, Problem Statement v1 |
@@ -41,7 +41,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Phần việc phụ trách:**
 
-- (chờ nhóm phân công CP4–CP6)
+- CP4 — Kiểm chứng (assumption map, phỏng vấn) và Research giải pháp đã có
 
 **Đóng góp cụ thể** (mình đã làm gì, ra sản phẩm gì):
 
@@ -50,6 +50,7 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Bằng chứng** (phần nào trong `group_report.md`, file nào trong `report/assets/`, commit nào):
 
+- `report/team/group_report.md` mục 3 (CP4); `report/assets/cp4-interview-guide.md`
 - `report/individual/2A202603365_NguyenTienHung.md`, nhánh `nguyentienhung-03365` (commit 2bb336e, 2181aec)
 
 **Điều mình học được từ phần nhóm:**
