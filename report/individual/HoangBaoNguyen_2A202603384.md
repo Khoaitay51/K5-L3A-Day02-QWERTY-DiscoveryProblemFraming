@@ -11,10 +11,10 @@
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
 |---:|---|---|---|---|
-| 1 | Phạm Trường Chính | 2A202603426 | Quy trình trước/sau + Problem Statement v0 (CP5) | *(bổ sung)* |
+| 1 | Phạm Trường Chính | 2A202603426 | Quy trình trước/sau + Problem Statement v0 (CP5) | Khoaitay51 |
 | 2 | Hoàng Bảo Nguyên | 2A202603384 | Hội tụ nhóm: pitch, cluster, cây OST, bảng chấm điểm (CP3) | Stormaka |
-| 3 | Nguyễn Quang Trung | 2A202603389 | Mức can thiệp AI + Problem Statement v1 + quyết định (CP6) | *(bổ sung)* |
-| 4 | Nguyễn Tiến Hưng | 2A202603365 | Kiểm chứng: phỏng vấn/survey + assumption map (CP4) | *(bổ sung)* |
+| 3 | Nguyễn Quang Trung | 2A202603389 | Mức can thiệp AI + Problem Statement v1 + quyết định (CP6) | quangtrung0812 |
+| 4 | Nguyễn Tiến Hưng | 2A202603365 | Kiểm chứng: phỏng vấn/survey + assumption map (CP4) | tienhungw |
 
 
 ## Phân công theo checkpoint
@@ -58,4 +58,3 @@ Mỗi thành viên thêm một mục theo mẫu dưới đây, tiêu đề là `
 
 **Điều mình học được từ phần nhóm:** Qua việc chuẩn bị phần hội tụ nhóm, mình học được cách gom những vấn đề có cùng khó khăn cốt lõi, thay vì chỉ nhìn vào giải pháp được đề xuất. Khi chọn vấn đề, cần dựa vào bằng chứng, mức độ ảnh hưởng và khả năng kiểm chứng. Mình cũng nhận ra việc phân công rõ ràng và lắng nghe phản biện giúp nhóm nhìn ra những điểm còn thiếu trong ý tưởng của từng người.
 
-- *(tự viết sau buổi nhóm — mục này là trải nghiệm cá nhân, không ai viết thay được)*
