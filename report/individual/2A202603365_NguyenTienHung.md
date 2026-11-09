@@ -139,7 +139,7 @@ HIỆN TẠI — ~8 phút/lần
 | Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: (bổ sung sau khi nhóm chốt) | (bổ sung sau khi nhóm chốt) |
 | Nhận phản biện | Câu hỏi tôi nhận được: thời gian lướt tìm thông báo có thật sự tới 5 phút không, và bài này có cần tới mức Workflow không? | Tôi đã sửa gì: đồng ý với thành viên nhóm — hạ thời gian bottleneck xuống dưới 5 phút và hạ mức can thiệp từ Workflow xuống Rule |
 | Gom cluster / cây OST | (bổ sung sau khi nhóm chốt) | (bổ sung sau khi nhóm chốt) |
-| Chọn candidate problem | (bổ sung sau khi nhóm chốt) | (bổ sung sau khi nhóm chốt) |
+| Chọn candidate problem | Cùng nhóm so sánh các card đã pitch; đồng ý chọn card #1 của bạn Phạm Trường Chinh: *Intern mới vào dự án phải tự tìm hiểu luồng dữ liệu (file, hàm, bảng DB) và quy tắc ngầm*. Card của tôi (#3 tìm thông báo deadline) không được chọn vì sau phản biện chỉ cần Rule/No AI, bottleneck dưới 5 phút | Nhóm chốt candidate có actor rõ (Intern & Mentor), lặp lại ở mọi task tháng đầu, tốn 1–1,5h/ngày của Intern và ngắt quãng Mentor 4–5 lần/tuần. Điều còn chưa chắc: làm sao giữ sơ đồ/tóm tắt luồng dữ liệu không lỗi thời khi code thay đổi liên tục |
 | Kiểm chứng / research | (bổ sung sau khi nhóm chốt) | (bổ sung sau khi nhóm chốt) |
 | Quy trình nhóm | Cùng nhóm thống nhất làm lần lượt từng giai đoạn (scan → pitch → hội tụ) thay vì nhảy vào giải pháp | Giảm tình trạng solution-first khi nhóm vội ra quyết định |
 | Problem Statement | (bổ sung sau khi nhóm chốt) | (bổ sung sau khi nhóm chốt) |
@@ -154,10 +154,10 @@ HIỆN TẠI — ~8 phút/lần
 |---|---|---|---|---|
 | CP1 Scan | Claude gợi ý 8 problem theo 4 lăng kính từ bối cảnh học viên K5 | Phủ đủ 4 lăng kính, viết đúng dạng Job Story | Không có dấu hiệu thật — AI không biết tôi mất bao nhiêu phút | Tự điền số liệu (đọc đề 15–30', soát bài 10–20', 1–2 conflict); bỏ 3 problem không có số liệu, giữ 5 |
 | CP2 Problem Card | Claude dựng nháp 3 card + phản biện kiểu PM hoài nghi | Chỉ ra card #3 là vấn đề tổ chức, không cần AI | Quy trình là quy trình "điển hình", chưa chắc là quy trình thật của tôi; số phút ban đầu tôi điền không khớp nhau | Tự chia số phút từng bước cho khớp tổng thời gian tôi ước lượng; sửa target card #1 |
-| CP4 Research | [ĐIỀN] | | | |
-| CP5 Quy trình | [ĐIỀN] | | | |
-| CP5–6 Problem Statement | [ĐIỀN] | | | |
-| CP6 Mức can thiệp / quyết định | [ĐIỀN] | | | |
+| CP4 Research | (nhóm chưa tới bước này) | | | |
+| CP5 Quy trình | (nhóm chưa tới bước này) | | | |
+| CP5–6 Problem Statement | (nhóm chưa tới bước này) | | | |
+| CP6 Mức can thiệp / quyết định | (nhóm chưa tới bước này) | | | |
 
 ---
 
