@@ -59,21 +59,21 @@ OUTCOME: Giảm thời gian mỗi thành viên dành để gom và tổng hợp 
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
-Shortlist 3 candidate có bằng chứng mạnh nhất. **Điểm dưới là đề xuất của người chuẩn bị — nhóm chấm lại trong buổi.**
+Shortlist lấy **3 candidate từ file của Phạm Trường Chính** — bộ bằng chứng định lượng chi tiết nhất nhóm hiện có (số phút theo từng bước, tần suất đếm được, sự việc cụ thể kèm hệ quả). **Điểm dưới là đề xuất của người chuẩn bị — nhóm xác nhận và chấm lại trong buổi**; 12 candidate vẫn pitch đủ ở bảng 2.1 và nhóm có quyền đưa candidate khác vào nếu tranh luận ra điều ngược lại.
 
-| Candidate | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
+| Candidate (từ file Trường Chính) | Actor rõ | Quy trình rõ | Pain có bằng chứng | Impact đo được | Vừa sức lab | So sánh được No AI/Rule/Workflow/Agent | Nhóm hiểu domain | Tổng |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| #1 Gom tài liệu ôn thi (Nguyên) | 5 | 5 | 4 | 4 | 5 | 5 | 5 | **33** |
-| #4 Dò luồng dữ liệu codebase (Trường) | 5 | 5 | 5 | 5 | 3 | 5 | 2 | 30 |
-| #10 Biết phải nộp gì khi làm lab (Hưng) | 5 | 4 | 4 | 3 | 5 | 4 | 5 | 30 |
+| #4 Dò luồng dữ liệu + quy tắc ngầm codebase | 5 | 5 | 5 | 5 | 3 | 5 | 2 | 30 |
+| #5 So sánh thư viện theo kiến trúc dự án | 5 | 5 | 5 | 4 | 4 | 5 | 4 | **32** |
+| #6 Ưu tiên việc đang chặn đồng đội | 5 | 3 | 4 | 4 | 3 | 3 | 3 | 25 |
 
-Ghi chú chấm: #1 bằng chứng là hồi tưởng có nhãn (chưa bấm giờ) nên 4; #4 bằng chứng chi tiết nhất nhưng "vừa sức lab" 3 (cần codebase thật + người intern khác để kiểm chứng) và "nhóm hiểu domain" 2 (chỉ 1/4 thành viên gặp); #10 impact vừa (15–60'/tuần) và một phần nghiệm thuộc coach sửa đề.
+Ghi chú chấm (theo dữ liệu trong file Trường Chính): #4 có bằng chứng và impact mạnh nhất (75'/task đo theo bước; Mentor bị ngắt 4–5 lần/tuần × 15–20') nhưng "vừa sức lab" 3 (cần codebase thật để thử, khó phỏng vấn thêm intern trong buổi) và "nhóm hiểu domain" 2 (chỉ 1/4 thành viên đang thực tập); #5 thử được ngay trong lab bằng Template 6 tiêu chí với 2–3 thư viện thật, ai từng làm đồ án cũng hiểu domain nên 4; #6 card chưa vẽ quy trình chi tiết và chính chủ card nghi "quy tắc phân loại cố định (No AI/Rule) là đủ" nên thấp ở "quy trình rõ" và "so 4 mức".
 
-**Candidate được chọn:** *(đề xuất: #1 — Gom tài liệu ôn thi Đại số tuyến tính; nhóm chốt trong buổi)*
+**Candidate được chọn:** *(đề xuất: #5 — So sánh thư viện theo kiến trúc dự án; nhóm chốt trong buổi)*
 
-**Vì sao chọn:** bằng chứng đầy nhất trong các candidate sinh viên (30–45' × 2–3 lần/tuần ≈ 1–2,25 giờ/tuần), quy trình 7 bước có số phút, bottleneck một bước cụ thể, begge nhóm hiểu domain (ai cũng từng ôn thi), so sánh được đủ 4 mức can thiệp, và kiểm chứng CP4 làm được ngay (phỏng vấn bạn cùng lớp ngoài nhóm).
+**Vì sao chọn:** bằng chứng định lượng (210'/lần, 1/2 lần phải làm lại thêm 90'), quy trình 6 bước có số phút, so sánh trực tiếp được No AI (Template 6 tiêu chí + công cụ tra số liệu) với Workflow (AI đối chiếu tài liệu thư viện theo template), và kiểm chứng CP4 làm được ngay trong lab: phỏng vấn 2–3 bạn từng research thư viện cho đồ án + thử template trên 2–3 thư viện thật.
 
-**Vì sao loại các candidate còn lại:** #4 — bằng chứng mạnh nhưng chỉ 1/4 thành viên gặp, khó kiểm chứng trong buổi lab (cần phỏng vấn intern dự án thật); giữ làm hướng tiếp theo. #10 — impact nhỏ hơn (15–60'/tuần) và một phần nghiệm ngoài quyền nhóm (coach thêm TL;DR vào đề); phần còn lại xử lý bằng checklist nhóm dùng chung. #7–#9 (Trung) — chưa có dấu hiệu thật (toàn "ước tính/giả thuyết, cần xác minh"), không đủ điều kiện "Pain có bằng chứng"; nếu bổ sung số thật trước buổi thì nhóm xét lại.
+**Vì sao loại các candidate còn lại:** #4 (30) — bằng chứng và impact mạnh nhất nhóm nhưng chỉ 1/4 thành viên thật sự gặp; kiểm chứng CP4 khó trong buổi (cần bạn đang thực tập thật để phỏng vấn); giữ làm hướng tiếp theo nếu nhóm ưu tiên impact hơn tính kiểm chứng được. #6 (25) — chưa vẽ được quy trình chi tiết; chính card ghi nghi vấn "quy tắc phân loại cố định là đủ" — nếu đúng, bài dừng sớm ở mức can thiệp. #1 (Nguyên — gom tài liệu ôn thi) — số liệu toàn ước lượng hồi tưởng, chưa bấm giờ và chưa xác nhận người khác cùng pain. #10 (Hưng) — một phần nghiệm thuộc coach sửa đề, ngoài quyền nhóm. #7–#9 (Trung) — chưa có dấu hiệu thật (toàn "ước tính/giả thuyết, cần xác minh").
 
 **Xử lý bất đồng (nếu có)
 
