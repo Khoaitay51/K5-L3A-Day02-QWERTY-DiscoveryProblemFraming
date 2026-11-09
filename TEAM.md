@@ -4,8 +4,8 @@
 
 ## Thông tin nhóm
 
-- Tên nhóm:
-- Candidate problem nhóm chọn (1 câu):
+- Tên nhóm: QWERTY
+- Candidate problem nhóm chọn (1 câu): 
 - Quyết định cuối (Go / Not Yet / No-Go):
 
 ## Thành viên
