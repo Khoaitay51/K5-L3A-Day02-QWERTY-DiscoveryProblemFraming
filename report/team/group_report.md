@@ -20,18 +20,18 @@
 
 | # | Người đưa ra | Candidate (Job Story ngắn) | Actor | Bottleneck | Câu hỏi phản biện nhận được (ai hỏi) |
 |---:|---|---|---|---|---|
-| 1 | Hoàng Bảo Nguyên | Gom đủ đề cương, slide, bài tập ôn thi ĐSTT vào một nơi duy nhất | Sinh viên tự ôn thi | Lục nhóm Zalo ~10'/lần, trong quy trình 7 bước ~50' | |
-| 2 | Hoàng Bảo Nguyên | Tổng hợp 4 loại nguồn thành một bộ ôn tập | Sinh viên trước kỳ thi | Xếp công thức/dạng bài ~30–60', trong 60–120'/lần | |
-| 3 | Hoàng Bảo Nguyên | Tự học và làm bài tập ngay sau buổi học | Sinh viên sau buổi học | Mò phần chưa hiểu ~30–45', trong 60–90'/buổi | |
-| 4 | Phạm Trường Chinh | Hiểu luồng dữ liệu và quy ước của nhóm khi làm quen codebase | Intern Dev và Mentor | Lần theo 10–15 file và tìm quy ước mất 50'/task, trên tổng 75' thao tác | |
-| 5 | Phạm Trường Chinh | So sánh 2–3 thư viện theo đúng kiến trúc dự án | Intern Dev làm research | Đọc blog lan man + lọc sai tiêu chí: 135'/lần (tổng 210') | |
-| 6 | Phạm Trường Chinh | Biết việc nào đang chặn đồng đội khi 3 đầu việc cùng lúc | Intern Dev đa nhiệm | Không thấy được việc nào chặn ai; 2–3 ngày/tuần bị phân tán | |
-| 7 | Nguyễn Quang Trung | Ghi biên bản họp: quyết định + phân công | Người tham dự/thư ký họp | Lọc ý + soạn biên bản 15–30'/họp *(ước tính, cần xác minh)* | |
-| 8 | Nguyễn Quang Trung | Nắm nội dung chính của tài liệu dài | Người đọc tài liệu | Đọc + tự lọc ý chính 1–3 giờ/tài liệu *(ước tính, cần xác minh)* | |
-| 9 | Nguyễn Quang Trung | Trả lời nhanh câu hỏi khách hàng lặp lại | Nhân viên CSKH | 50–100 câu/ngày *(giả thuyết, chưa có bằng chứng)* | |
-| 10 | Nguyễn Tiến Hưng | Biết phải nộp gì, nộp ở đâu khi bắt đầu lab | Học viên K5 | Đối chiếu RUBRIC ↔ SUBMISSION ↔ template ~10', trong ~25'/lab | |
-| 11 | Nguyễn Tiến Hưng | Soát báo cáo còn thiếu mục nào trước deadline | Học viên trước giờ nộp | Dò từng field bằng tay ~8', trong ~15'/lần | |
-| 12 | Nguyễn Tiến Hưng | Xem được mọi deadline/thông báo ở một chỗ | Học viên, cả lớp | ~5 câu hỏi lặp/tuần trong group lớp *(ước lượng)* | |
+| 1 | Hoàng Bảo Nguyên | Gom đủ đề cương, slide, bài tập ôn thi ĐSTT vào một nơi duy nhất | Sinh viên tự ôn thi | Lục nhóm Zalo ~10'/lần, trong quy trình 7 bước ~50' | Gắn 1 link Google Drive chung lên mô tả nhóm Zalo (`No AI`) có giải quyết xong ngay không? (Nguyễn Tiến Hưng hỏi) |
+| 2 | Hoàng Bảo Nguyên | Tổng hợp 4 loại nguồn thành một bộ ôn tập | Sinh viên trước kỳ thi | Xếp công thức/dạng bài ~30–60', trong 60–120'/lần | Bộ ôn tập tổng hợp từ 4 nguồn đo chất lượng thế nào để biết không bị sót công thức? (Phạm Trường Chinh hỏi) |
+| 3 | Hoàng Bảo Nguyên | Tự học và làm bài tập ngay sau buổi học | Sinh viên sau buổi học | Mò phần chưa hiểu ~30–45', trong 60–90'/buổi | Bước nghẽn thật sự là không tìm thấy tài liệu hay do chưa hiểu khái niệm trên lớp? (Nguyễn Quang Trung hỏi) |
+| 4 | Phạm Trường Chinh | Hiểu luồng dữ liệu và quy ước của nhóm khi làm quen codebase | Intern Dev và Mentor | Lần theo 10–15 file và tìm quy ước mất 50'/task, trên tổng 75' thao tác | Nếu có sẵn sơ đồ luồng code thì Intern có làm theo máy móc mà không thực sự hiểu kiến trúc dự án không? (Hoàng Bảo Nguyên hỏi) |
+| 5 | Phạm Trường Chinh | So sánh 2–3 thư viện theo đúng kiến trúc dự án | Intern Dev làm research | Đọc blog lan man + lọc sai tiêu chí: 135'/lần (tổng 210') | Tần suất được giao research thư viện mới mỗi tháng mấy lần, có đủ thường xuyên không? (Nguyễn Quang Trung hỏi) |
+| 6 | Phạm Trường Chinh | Biết việc nào đang chặn đồng đội khi 3 đầu việc cùng lúc | Intern Dev đa nhiệm | Không thấy được việc nào chặn ai; 2–3 ngày/tuần bị phân tán | Chỉ cần hỏi Mentor 1 câu hoặc quy ước nhãn `[BLOCKER]` trên chat đã đủ chưa? (Nguyễn Tiến Hưng hỏi) |
+| 7 | Nguyễn Quang Trung | Ghi biên bản họp: quyết định + phân công | Người tham dự/thư ký họp | Lọc ý + soạn biên bản 15–30'/họp *(ước tính, cần xác minh)* | Lần gần nhất bạn phải viết biên bản họp mất chính xác bao lâu, có log hay file cũ đối chiếu không? (Hoàng Bảo Nguyên hỏi) |
+| 8 | Nguyễn Quang Trung | Nắm nội dung chính của tài liệu dài | Người đọc tài liệu | Đọc + tự lọc ý chính 1–3 giờ/tài liệu *(ước tính, cần xác minh)* | Actor cụ thể là ai và đọc loại tài liệu gì, vì mỗi loại tài liệu cần tìm thông tin khác nhau? (Phạm Trường Chinh hỏi) |
+| 9 | Nguyễn Quang Trung | Trả lời nhanh câu hỏi khách hàng lặp lại | Nhân viên CSKH | 50–100 câu/ngày *(giả thuyết, chưa có bằng chứng)* | Nhóm có ai đang làm CSKH hoặc tiếp cận được dữ liệu ticket thật trong buổi lab không? (Nguyễn Tiến Hưng hỏi) |
+| 10 | Nguyễn Tiến Hưng | Biết phải nộp gì, nộp ở đâu khi bắt đầu lab | Học viên K5 | Đối chiếu RUBRIC ↔ SUBMISSION ↔ template ~10', trong ~25'/lab | Đọc kỹ file `SUBMISSION.md` và dùng checklist có sẵn (`No AI`) đã đủ chưa, có cần tới AI không? (Phạm Trường Chinh hỏi) |
+| 11 | Nguyễn Tiến Hưng | Soát báo cáo còn thiếu mục nào trước deadline | Học viên trước giờ nộp | Dò từng field bằng tay ~8', trong ~15'/lần | Việc kiểm tra mục trống chỉ cần dùng script/regex kiểm tra tiêu đề (`Rule`) là đủ phải không? (Nguyễn Quang Trung hỏi) |
+| 12 | Nguyễn Tiến Hưng | Xem được mọi deadline/thông báo ở một chỗ | Học viên, cả lớp | ~5 câu hỏi lặp/tuần trong group lớp *(ước lượng)* | Nhóm mình không có quyền quản trị LMS/Zalo của ban tổ chức thì làm sao can thiệp? (Hoàng Bảo Nguyên hỏi) |
 
 
 ### 2.2. Cluster
@@ -58,6 +58,12 @@ OUTCOME: Giảm thời gian mỗi thành viên dành để gom và tổng hợp 
 ├── Opportunity E: Cùng một thông tin bị hỏi lại nhiều lần vì không có chỗ tra chung
 └── Opportunity F: Không biết việc mình đang làm có đang chặn ai
 ```
+
+Những ý đã gạch bỏ vì là solution đội lốt opportunity:
+
+- ✗ *"Cần một chatbot hỏi đáp kiến trúc codebase và trả lời câu hỏi lặp lại"* — đây là giải pháp công cụ, không phải nhu cầu hay nỗi đau của người dùng.
+- ✗ *"Tự động hóa sinh bộ đề cương ôn tập và biên bản họp bằng AI"* — đây là tính năng giải pháp đang đội lốt opportunity.
+- ✗ *"Xây dựng dashboard tổng hợp thông báo và kiểm tra bài nộp tự động"* — đây là cách giải quyết (solution), đã được chuyển lại thành pain tương ứng ở các nhánh Opportunity A và D.
 
 ### 2.4. Chấm điểm shortlist (1–5)
 
@@ -91,14 +97,22 @@ Shortlist gồm ba candidate từ Problem Card của Phạm Trường Chinh. M�
 | A2 | Mentor bị Intern hỏi về luồng dữ liệu cơ bản 4–5 lần/tuần, mỗi lần 15–20 phút | Value | 4 | 1 (chưa hỏi Mentor nào) | **Có** |
 | A3 | Bước nghẽn là lần theo luồng qua 10–15 file và tìm quy tắc ngầm, không phải hiểu nghiệp vụ trong ticket | Value | 5 | 1 | **Có** |
 | A4 | Quy tắc ngầm của nhóm có thể viết ra thành tài liệu (vd. `CONVENTIONS.md`) và giữ được cập nhật | Feasibility | 4 | 2 (research: có công cụ gắn tài liệu với code, xem 3.3) | Sau |
-| A5 | Công ty cho phép đưa source code vào công cụ AI/dịch vụ bên ngoài | Viability | 5 | 1 | Có (hỏi câu 9) |
+| A5 | Công ty cho phép đưa source code vào công cụ AI/dịch vụ bên ngoài | Viability | 5 | 1 | Có (xác nhận chính sách của dự án) |
 | A6 | Intern sẽ tự mở IDE kiểm lại sơ đồ thay vì chép máy móc | Usability | 3 | 1 | Sau |
 
-Giả định nhóm kiểm chứng trong buổi này: **A1, A2, A3** (quan trọng cao, bằng chứng thấp), cộng thêm A5 bằng câu hỏi số 9.
+Nhóm ưu tiên kiểm chứng **A1–A3** bằng ticket cụ thể. Với A5, cần xác nhận chính sách của dự án trước khi thử công cụ trên mã nguồn thật.
 
 ### 3.2. Kiểm chứng
 
 **Nguồn kiểm chứng ban đầu:** Trao đổi và phản biện tại bàn trong buổi lab. Các ý dưới đây được diễn giải theo chủ đề. Nhóm chưa ghi nhận số người có trải nghiệm trực tiếp, thời gian xử lý hay tần suất gặp vấn đề từ buổi trao đổi này.
+
+**Số liệu ban đầu từ [Problem Card #1 của Phạm Trường Chinh](../individual/2A202603426_PhamTruongChinh.md#problem-card-1).** Các mốc dưới đây dựa trên trải nghiệm thực tập của một thành viên.
+
+| Giả định | Mốc ban đầu | Cách đối chiếu |
+|---|---|---|
+| A1 — Thời gian xác định phạm vi sửa | Khoảng 75 phút thao tác/ticket, nằm trong khoảng 60–90 phút ghi ở Problem Card. Quy trình CP5 ghi riêng thời gian chờ Mentor. | Ghi thời gian thao tác và thời gian chờ riêng cho từng ticket có luồng qua nhiều tầng. |
+| A2 — Tần suất hỏi Mentor | Intern ghi nhận khoảng 4–5 lần/tuần, mỗi lần 15–20 phút. | Đối chiếu với nhật ký trao đổi và xác nhận từ Mentor. Tách câu hỏi về file, hàm, bảng khỏi câu hỏi nghiệp vụ hoặc thiết kế. |
+| A3 — Vị trí nghẽn | Khoảng 35 phút lần theo 10–15 file và 15 phút tìm quy ước. Hai bước chiếm khoảng 50/75 phút thao tác, tương đương 67%. | Ghi riêng thời gian đọc hiểu yêu cầu, lần theo luồng và tìm quy ước để xem bước nào tốn thời gian nhất ở từng ticket. |
 
 | Chủ đề | Ý kiến được nêu | Hàm ý cho phạm vi bài toán |
 |---|---|---|
@@ -109,7 +123,7 @@ Giả định nhóm kiểm chứng trong buổi này: **A1, A2, A3** (quan trọ
 
 | Nguồn | Số người / số mẫu | Tín hiệu xác nhận | Tín hiệu phản bác |
 |---|---:|---|---|
-| Thảo luận tại bàn | 2 chủ đề ghi nhận | Ý kiến nêu khó khăn khi xác định file đầu tiên và lần theo các hàm liên quan. | Với luồng đơn giản, IDE, README và lịch sử commit có thể đã đủ. |
+| Thảo luận tại bàn | Chưa ghi số người | Ý kiến nêu khó khăn khi xác định file đầu tiên và lần theo các hàm liên quan. | Với luồng đơn giản, IDE, README và lịch sử commit có thể đã đủ. |
 | Research (3.3) | 3 nguồn | Đã có công cụ thương mại giải quyết các vấn đề như lần theo luồng code và phát hiện tài liệu lỗi thời. Điều này cho thấy đây là những nhu cầu đã được nhận diện trên thị trường. | Nghiên cứu onboarding tại Microsoft cho thấy các nhiệm vụ thực tế còn giúp developer mới xây dựng sự tự tin và hòa nhập với nhóm. Vì vậy, giảm số lần hỏi Mentor không nhất thiết là điều tốt. |
 
 **Nhóm đã sửa problem thế nào sau kiểm chứng:**
@@ -117,6 +131,8 @@ Giả định nhóm kiểm chứng trong buổi này: **A1, A2, A3** (quan trọ
 - Từ research (đề xuất, chờ nhóm duyệt): đổi metric "số lần hỏi Mentor ≤ 1 lần/tuần" thành "số câu hỏi **về luồng dữ liệu cơ bản** (file/hàm/bảng nào) ≤ 1 lần/tuần", vẫn giữ các câu hỏi về nghiệp vụ và quyết định thiết kế, vì tương tác với người hướng dẫn có giá trị hòa nhập (Ju et al., 2021).
 - Từ research: câu hỏi "làm sao giữ tài liệu không lỗi thời" đã có hướng giải ở công cụ có sẵn (gắn tài liệu với code, kiểm tra trong CI) → nhóm không cần tự phát minh cơ chế này.
 - Từ thảo luận tại bàn: Thu hẹp phạm vi vào ticket có luồng dữ liệu qua nhiều tầng. Cần kiểm chứng thêm A1–A3 về thời gian xử lý, tần suất hỏi Mentor và vị trí nghẽn.
+
+**Bước kiểm chứng tiếp theo.** Hỏi 2–3 người ngoài nhóm từng làm hoặc hướng dẫn ticket onboarding. Yêu cầu họ kể lại ticket gần nhất, file đầu tiên họ mở, bước mất nhiều thời gian nhất và lần gần nhất họ cần Mentor hỗ trợ. Ghi riêng thời gian thao tác, thời gian chờ và trường hợp IDE hoặc tài liệu đã đủ. Khi có ghi chép, đối chiếu từng trường hợp với A1–A3 trước khi cập nhật baseline.
 
 ### 3.3. Research giải pháp đã có
 
@@ -241,7 +257,7 @@ Kết luận: Bài toán phù hợp với Workflow có AI hỗ trợ phân tích
 
 | Mức | Phương án cho bài của nhóm | Đủ khi nào | Rủi ro | Chọn? |
 |---|---|---|---|---|
-| **No AI** (sửa quy trình) |Viết ARCHITECTURE_MAP.md, tạo mẫu Intern tự ghi 3 dòng kế hoạch sửa code và gửi Mentor xác nhận.|Dự án nhỏ, ít luồng nghiệp vụ, tài liệu kiến trúc được cập nhật thường xuyên.|Tài liệu nhanh lỗi thời khi code thay đổi; không bao phủ được từng API và hàm trong codebase lớn.|Không chọn làm giải pháp chính|
+| **No AI** (sửa quy trình) |Viết ARCHITECTURE_MAP.md, dùng phiếu xác nhận luồng 4 dòng và gửi Mentor duyệt.|Dự án nhỏ, ít luồng nghiệp vụ, tài liệu kiến trúc được cập nhật thường xuyên.|Tài liệu nhanh lỗi thời khi code thay đổi; không bao phủ được từng API và hàm trong codebase lớn.|Không chọn làm giải pháp chính|
 | **Rule** |Tìm kiếm theo tên route, API, hàm; quét cây thư mục và hiển thị các file có liên quan theo cấu trúc Controller → Service → Repository → Model.|Tên hàm, route và cấu trúc dự án rõ ràng, có quy ước nhất quán.|Không hiểu được ngữ cảnh nghiệp vụ, hàm gọi chéo phức tạp và quy tắc ngầm không được ghi thành quy tắc cố định.|Không chọn làm giải pháp chính|
 | **Workflow** |Kết hợp Rule và AI: nhận yêu cầu/tên thao tác → truy xuất file liên quan → AI phân tích chuỗi gọi hàm và tài liệu CONVENTIONS.md → tạo sơ đồ luồng dữ liệu, tóm tắt quy tắc liên quan và dẫn chứng vị trí code. Intern kiểm tra lại và Mentor xác nhận.|Codebase có thể truy xuất, có tài liệu hoặc code để đối chiếu; đầu ra được con người kiểm tra trước khi sử dụng.|AI có thể bỏ sót hàm gọi chéo, suy diễn sai quan hệ dữ liệu hoặc trình bày quy tắc chưa được xác thực như sự thật.|Chọn|
 | **Agent** |AI tự động đọc toàn bộ dự án, chủ động tìm hiểu nghiệp vụ, cập nhật sơ đồ kiến trúc và đề xuất hoặc thực hiện thay đổi code.|Có hệ thống kiểm soát quyền truy cập, kiểm thử tự động, giám sát và cơ chế phê duyệt chặt chẽ.|Phạm vi quá rộng, tốn chi phí, nguy cơ đọc sai nghiệp vụ, cập nhật sai tài liệu hoặc tự ý tác động đến code.|Không chọn|
@@ -260,7 +276,7 @@ Kết luận: Bài toán phù hợp với Workflow có AI hỗ trợ phân tích
 |---|---|
 | **Prediction** — AI dự đoán / tạo ra gì? |AI nhận ticket hoặc tên thao tác trên giao diện, phân tích codebase để tạo sơ đồ luồng dữ liệu từ UI → API Route → Controller → Service → Repository → Model → Database. Đồng thời tóm tắt các quy tắc nghiệp vụ và quy ước nhóm có liên quan.|
 | **Judgment** — con người cân nhắc, quyết định gì? |Intern kiểm tra các file, hàm, bảng dữ liệu và vị trí code mà AI dẫn chứng trên IDE; đánh giá thông tin có đúng với yêu cầu ticket không. Mentor xác nhận các quy tắc nghiệp vụ quan trọng và kế hoạch sửa code.|
-| **Action** — hành động cuối cùng là gì, ai làm? |Intern tự viết kế hoạch sửa code 3 dòng, gửi Mentor xác nhận rồi mới thực hiện chỉnh sửa. AI không tự động sửa hoặc commit code.|
+| **Action** — hành động cuối cùng là gì, ai làm? |Intern tự điền phiếu xác nhận luồng 4 dòng, gửi Mentor xác nhận rồi mới thực hiện chỉnh sửa. AI không tự động sửa hoặc commit code.|
 | **Outcome** — đo kết quả bằng gì? |(1) Thời gian xác định danh sách file/hàm/bảng DB giảm từ 75 phút xuống dưới 20 phút/task. (2) Số lần hỏi Mentor về luồng dữ liệu cơ bản giảm từ 4–5 lần/tuần xuống ≤ 1 lần/tuần.|
 | **Input** — AI cần dữ liệu đầu vào gì mỗi lần chạy? Có sẵn không? |Ticket mô tả yêu cầu, tên thao tác hoặc màn hình, mã nguồn dự án (Controller, Service, Repository, Model...), cấu trúc thư mục, schema Database và tài liệu CONVENTIONS.md. Phần lớn đã có trong repository; tài liệu quy tắc ngầm cần được Mentor bổ sung hoặc xác nhận nếu chưa tồn tại.|
 | **Feedback** — lấy phản hồi ở đâu để cải thiện? |Intern đánh dấu file/hàm AI tìm sai hoặc bỏ sót; Mentor xác nhận hoặc chỉnh sửa sơ đồ luồng và quy tắc nghiệp vụ. Ghi nhận thời gian hoàn thành task và số lần phải hỏi lại Mentor để đánh giá chất lượng qua từng lần sử dụng.|
@@ -273,7 +289,7 @@ Kết luận: Bài toán phù hợp với Workflow có AI hỗ trợ phân tích
         - Intern cần hiểu kiến trúc dự án để có thể tự xử lý những ticket tương tự trong tương lai, chứ không chỉ cần AI chỉ sẵn file để sửa.
         - Việc hiểu các quy tắc nghiệp vụ và quy ước ngầm đòi hỏi kinh nghiệm của Mentor và kiến thức thực tế của nhóm.
         - AI chỉ đưa ra sơ đồ luồng code, vị trí file/hàm và các quy tắc liên quan để Intern tham khảo.
-        - Intern bắt buộc tự kiểm tra trên IDE và viết kế hoạch sửa code 3 dòng gửi Mentor xác nhận (HITL).
+        - Intern bắt buộc tự kiểm tra trên IDE và điền phiếu xác nhận luồng 4 dòng gửi Mentor xác nhận (HITL).
 
 - AI sai kiểu nào tệ hơn, **báo nhầm** hay **bỏ sót**? Vì sao, và thiết kế đã xử lý thế nào:
     Bỏ sót (False Negative) là rủi ro nghiêm trọng hơn trong bài toán này.
@@ -294,11 +310,11 @@ Kết luận: Bài toán phù hợp với Workflow có AI hỗ trợ phân tích
 
 | Trường | Nội dung |
 |---|---|
-| **Actor** |Thực tập sinh (Intern Developer) mới tham gia dự án trong 3–4 tuần đầu và Mentor/Senior Developer chịu trách nhiệm hướng dẫn.|
+| **Actor** |Thực tập sinh (Intern Developer) mới tham gia dự án trong 3–4 tuần đầu và Mentor/Senior Developer chịu trách nhiệm hướng dẫn. Phạm vi gồm ticket sửa tính năng có sẵn tác động đến logic hoặc dữ liệu qua nhiều tầng.|
 | **Quy trình** |Intern đọc ticket → mở màn hình giao diện → tìm API Route → lần theo Controller, Service, Repository, Model → kiểm tra Database → tìm quy tắc ngầm trong code cũ/PR → hỏi Mentor nếu chưa hiểu → lập kế hoạch sửa code.|
 | **Bottleneck** |Bước lần theo luồng dữ liệu qua 10–15 file mất khoảng 35 phút; tìm quy tắc ngầm trong code cũ và PR mất khoảng 15 phút. Tổng thời gian tìm hiểu và xác nhận luồng khoảng 75 phút/task.|
 | **Impact** |Intern mất 60–90 phút mò mẫm cho mỗi task mới trong giai đoạn đầu; Mentor bị gián đoạn 4–5 lần/tuần, mỗi lần 15–20 phút. Nguy cơ sửa thiếu file, sai luồng dữ liệu hoặc vi phạm quy ước dự án.|
-| **Success Metric** (baseline → target, cách đo) |(1) Thời gian xác định danh sách file/hàm/bảng DB cần chạm tới: 75 phút → dưới 20 phút/task. Đo bằng thời gian từ lúc bắt đầu đọc ticket đến khi hoàn thành danh sách và kế hoạch sửa. (2) Số lần hỏi Mentor về luồng dữ liệu cơ bản: 4–5 lần/tuần → ≤ 1 lần/tuần. Đo bằng nhật ký câu hỏi của Intern trong giai đoạn pilot.|
+| **Success Metric** (baseline → target, cách đo) |(1) Thời gian thao tác trung bình xác định file/hàm/bảng DB: khoảng 75 phút → dưới 20 phút/task. Bấm giờ từ lúc đọc ticket đến lúc hoàn thành phiếu xác nhận và ghi riêng thời gian chờ. (2) Số lần hỏi Mentor về luồng dữ liệu cơ bản: 4–5 lần/tuần → ≤ 1 lần/tuần, theo nhật ký câu hỏi của Intern. (3) Tỷ lệ phiếu được duyệt lần đầu: chưa có baseline, mục tiêu ít nhất 5/6 phiếu. Mentor ghi đạt khi phiếu chỉ đúng luồng và đủ file/hàm/bảng quan trọng ngay lần duyệt đầu. Đo trên 6 ticket liên tiếp trong 2 tuần pilot.|
 | **Boundary** |AI chỉ phân tích, truy xuất và giải thích luồng code; không tự sửa, xóa, tạo hoặc commit code. Không tự khẳng định các quy tắc nghiệp vụ chưa có bằng chứng. Intern phải tự kiểm tra trên IDE và Mentor xác nhận kế hoạch sửa trước khi thực hiện.|
 | **AI intervention point** |Can thiệp sau khi Intern cung cấp ticket và thao tác/màn hình cần tìm hiểu. AI truy xuất các file liên quan, lần theo quan hệ gọi hàm, đối chiếu tài liệu quy ước và tạo sơ đồ luồng dữ liệu kèm dẫn chứng.|
 | **Mức chọn** | Workflow – kết hợp Rule để tìm kiếm và truy xuất code với AI để phân tích, tổng hợp và giải thích ngữ cảnh.|
@@ -308,10 +324,10 @@ Kết luận: Bài toán phù hợp với Workflow có AI hỗ trợ phân tích
 
 | Trường | v0 | v1 | Vì sao đổi |
 |---|---|---|---|
-|Bottleneck|Mô tả chung là mất thời gian mò mẫm giữa các thư mục.|Tách rõ 35 phút lần theo 10–15 file và 15 phút tìm quy tắc ngầm; tổng quy trình khoảng 75 phút/task.|Xác định chính xác điểm cần AI can thiệp, tránh giải quyết sai vấn đề.|
-|Success Metric|Intern hòa nhập nhanh hơn, giảm ngại hỏi Mentor.|Thời gian xác định file/hàm/bảng DB giảm từ 75 phút xuống dưới 20 phút/task; số lần hỏi Mentor giảm từ 4–5 xuống ≤ 1 lần/tuần.|Chuyển từ cảm nhận định tính sang chỉ số có thể đo lường.|
+|Phạm vi ticket|Ticket sửa hoặc mở rộng tính năng có sẵn.|Ưu tiên ticket có luồng dữ liệu qua nhiều tầng và có thay đổi logic hoặc dữ liệu.|Thảo luận tại bàn cho thấy IDE và tài liệu có thể đã đủ cho các luồng đơn giản.|
+|Success Metric|Đo thời gian xác định luồng và số lần hỏi lại Mentor.|Giữ hai chỉ số và thêm mục tiêu ít nhất 5/6 phiếu được Mentor duyệt lần đầu.|Đo chất lượng song song với tốc độ và tần suất hỏi.|
 |Giả thuyết AI|AI đọc code và tóm tắt luồng nghiệp vụ.|Kết hợp Rule truy xuất code và Workflow dùng AI phân tích chuỗi file, hàm, Database và tài liệu quy ước.|Làm rõ cách AI hoạt động thay vì chỉ nêu ý tưởng chung.|
-|Boundary|Chưa quy định rõ quyền hạn của AI.|AI chỉ đưa ra sơ đồ và dẫn chứng; Intern tự kiểm tra IDE, viết kế hoạch sửa 3 dòng và gửi Mentor xác nhận.|Tránh Intern phụ thuộc vào AI, copy-paste mà không hiểu kiến trúc dự án.|
+|Boundary|AI chỉ hỗ trợ đọc luồng. Intern kiểm tra trong IDE và Mentor duyệt phiếu 4 dòng.|Giữ phiếu 4 dòng và yêu cầu gắn dẫn chứng code, đánh dấu phần chưa xác minh.|Giúp Intern và Mentor kiểm tra căn cứ của từng nhận định.|
 |Mức can thiệp|Chưa phân biệt rõ giữa Workflow và Agent.|Chọn Workflow, không cho AI tự sửa code hoặc tự quyết định nghiệp vụ.|Giảm rủi ro và giữ con người kiểm soát các quyết định quan trọng.|
 |Rủi ro|Chưa phân tích rõ lỗi AI có thể gây ra.|Bổ sung kiểm soát báo nhầm, bỏ sót, dẫn chứng code và nhãn Chưa xác minh.|Đảm bảo Intern có thể kiểm tra lại đầu ra trước khi sử dụng.|
 
@@ -371,14 +387,10 @@ Kết luận: Bài toán phù hợp với Workflow có AI hỗ trợ phân tích
 - Xây dựng tài liệu ARCHITECTURE_MAP.md mô tả các luồng nghiệp vụ chính.
 - Chuẩn hóa tài liệu CONVENTIONS.md ghi lại quy tắc ngầm của nhóm.
 - Xây dựng checklist onboarding cho Intern.
-- Áp dụng mẫu xác nhận luồng 3 dòng trước khi sửa code.
+- Áp dụng phiếu xác nhận luồng 4 dòng trước khi sửa code.
 - Sử dụng chức năng tìm kiếm có sẵn trong IDE để hỗ trợ truy xuất file và hàm.
 
-**Ngưỡng dừng** (nếu sau … mà … thì quay về …):
-- Nếu AI bỏ sót các file/hàm quan trọng hoặc cung cấp đường dẫn không chính xác ở mức khiến Mentor phải sửa lại thường xuyên → dừng mở rộng AI, quay về Rule.
-- Nếu không thể chuẩn hóa các quy tắc nghiệp vụ thành tài liệu có thể kiểm chứng → chưa triển khai chức năng giải thích quy tắc ngầm.
-- Nếu thời gian xác định luồng code không giảm đáng kể so với cách làm hiện tại → đánh giá lại tính cần thiết của AI.
-- Nếu không đảm bảo bảo mật mã nguồn → không đưa repository lên dịch vụ AI bên ngoài.
+**Ngưỡng dừng pilot.** Sau 2 tuần, chỉ tiếp tục Workflow nếu đã đo đủ 6 ticket liên tiếp, ít nhất 5/6 phiếu được Mentor duyệt ngay lần đầu và thời gian thao tác trung bình dưới 20 phút/task. Nếu không đạt một trong các điều kiện này, dừng pilot và quay về Rule kết hợp phiếu xác nhận 4 dòng. Quy ước chưa có dẫn chứng được chuyển cho Mentor xác nhận. Chỉ thử trên mã nguồn đã được dự án cho phép sử dụng với công cụ đã chọn.
 ---
 
 ## 9. Hạn chế và hướng tiếp theo

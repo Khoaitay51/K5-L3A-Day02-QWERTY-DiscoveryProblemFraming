@@ -1,4 +1,4 @@
-# Báo cáo cá nhân — 2A0202603426_PhamTruongChinh
+# Báo cáo cá nhân — 2A202603426_PhamTruongChinh
 
 > Đổi tên file theo quy tắc `MSSV_HoTen.md`, ví dụ `20241234_NguyenVanAn.md` (MSSV trước, dấu `_`, họ tên viết liền không dấu). Sửa cả dòng tiêu đề phía trên cho khớp.
 > Template chi tiết và prompt mẫu cho từng mục: [docs/01-worksheet.md](../../docs/01-worksheet.md).
@@ -42,11 +42,6 @@ Lăng kính: **Lặp lại** · **Tốn thời gian** · **Cần đọc, tổng 
 - **Ý loại bỏ và lý do:**
   1. Bỏ gợi ý *"Xây dựng trợ lý AI tự động đọc log trên server và tự sửa code đẩy lên nhánh chính"* vì đây là **solution trá hình** (nhảy vào giải pháp trước khi hiểu vấn đề) và vi phạm ranh giới an toàn hệ thống.
   2. Bỏ gợi ý *"Hệ thống AI tự động đánh giá năng lực thực tập sinh hằng tuần"* vì phạm vi quá rộng, thiên về quản trị nhân sự và không có quy trình thao tác cụ thể để đo baseline trong một buổi lab.
-
-
-**Nếu có dùng AI để gợi ý thêm:** ý nào AI gợi ý mà bạn giữ lại, ý nào bỏ và vì sao.
-
--
 
 ---
 
@@ -162,16 +157,16 @@ HIỆN TẠI — 35 phút rối loạn chuyển ngữ cảnh + làm đồng đ�
 
 | Hoạt động | Tôi đã làm gì? | Kết quả / ảnh hưởng tới bài nhóm |
 |---|---|---|
-| Pitch Problem Card | | |
-| Phản biện bài của bạn khác | Câu hỏi tôi đã đặt: | |
-| Nhận phản biện | Câu hỏi tôi nhận được: | Tôi đã sửa gì: |
-| Gom cluster / cây OST | | |
-| Chọn candidate problem | | |
-| Kiểm chứng / research | | |
-| Quy trình nhóm | | |
-| Problem Statement | | |
-| Mức can thiệp AI | | |
-| Quyết định | | |
+| Pitch Problem Card | Chuẩn bị card về việc lần theo luồng dữ liệu và tìm quy ước khi mới vào codebase. | Card trở thành candidate #4 của nhóm. |
+| Phản biện bài của bạn khác | **Câu hỏi tôi đã đặt:** (1) Hỏi Nguyễn Tiến Hưng (#10, #11): *"Việc soát báo cáo thiếu mục nào trước giờ nộp chỉ cần dùng Checklist cố định (`No AI`) trong `SUBMISSION.md` là đủ chưa, có cần tới AI không?"*; (2) Hỏi Hoàng Bảo Nguyên (#2): *"Bộ ôn tập tổng hợp từ 4 nguồn đo chất lượng đầu ra thế nào để biết là không bị sót công thức?"* | Nhóm nhận ra các bài #10, #11 chỉ cần Checklist (`No AI`) là đủ nên không đưa vào shortlist cần can thiệp sâu, và tập trung chấm điểm 3 candidate có quy trình nhiều bước hơn. |
+| Nhận phản biện | **Câu hỏi tôi nhận được:** Card #1 được phản biện rằng nếu có sẵn sơ đồ luồng code thì Intern có thể chỉ làm theo máy móc mà chưa thực sự hiểu kiến trúc dự án. | **Tôi đã sửa gì:** Bổ sung Boundary yêu cầu Intern tự mở IDE đối chiếu và viết phiếu xác nhận 4 dòng gửi Mentor duyệt trước khi code. |
+| Gom cluster / cây OST | Hoàng Bảo Nguyên phụ trách phần này. | |
+| Chọn candidate problem | Cung cấp Problem Card và số phút ở từng bước cho #4. | Nhóm có căn cứ để so sánh #4 với các candidate còn lại. |
+| Kiểm chứng / research | Hỗ trợ CP4 bằng trải nghiệm thực tập và số liệu ban đầu từ Problem Card. | Dùng để đặt giả định về thời gian xử lý, vị trí nghẽn và tần suất hỏi Mentor. |
+| Quy trình nhóm | Phụ trách vẽ quy trình trước/sau, ghi thời gian, bước kiểm tra và phương án quay về. | Báo cáo nhóm mục 4, commit `5b10b07`. |
+| Problem Statement | Soạn v0 với mốc 75 phút/task, mục tiêu dưới 20 phút/task và giới hạn can thiệp. | Báo cáo nhóm mục 5, commit `5b10b07`. |
+| Mức can thiệp AI | Đề xuất điểm can thiệp trong quy trình tương lai ở CP5. Nguyễn Quang Trung phụ trách so sánh các mức ở CP6. | AI tóm tắt luồng, Intern kiểm tra trên IDE và Mentor duyệt. |
+| Quyết định | Dùng quy trình và metric CP5 làm đầu vào cho CP6. | Nhóm chọn Not Yet vì cần thêm dữ liệu kiểm chứng. |
  
 ---
 
@@ -179,12 +174,12 @@ HIỆN TẠI — 35 phút rối loạn chuyển ngữ cảnh + làm đồng đ�
 
 | Checkpoint | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai hoặc hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| CP1 Scan | | | | |
-| CP2 Problem Card | | | | |
-| CP4 Research | | | | |
-| CP5 Quy trình | | | | |
-| CP5–6 Problem Statement | | | | |
-| CP6 Mức can thiệp / quyết định | | | | |
+| CP1 Scan | Xin thêm góc nhìn về khó khăn của người khác sau khi tự ghi 8 vấn đề. | Mở rộng góc nhìn từ Intern sang người làm việc cùng Intern. | Gợi ý chung chưa đủ để đưa vào bảng scan. | Đối chiếu với trải nghiệm thực tế và ghi rõ nguồn ý ở mục 2. |
+| CP2 Problem Card | Nhờ AI phản biện card về đọc codebase. | Chỉ ra nguy cơ Intern làm theo sơ đồ mà chưa hiểu luồng. | Sơ đồ và tên file chưa đủ để biết Intern đã hiểu đúng. | Thêm yêu cầu mở IDE đối chiếu và gửi xác nhận cho Mentor. |
+| CP4 Research | Hỗ trợ bằng dữ liệu Problem Card. | | | Tách dữ liệu ban đầu của một người khỏi kết quả kiểm chứng của nhóm. |
+| CP5 Quy trình | Nhờ AI rà độ nhất quán giữa quy trình, boundary và phương án quay về. | Giúp phát hiện chỗ cần nêu rõ ai kiểm tra và xử lý khi AI sai. | Ước lượng quy trình tương lai chưa qua pilot. | Ghi thời gian sau can thiệp là kỳ vọng và giữ bước Mentor duyệt. |
+| CP5–6 Problem Statement | Nhờ AI đóng vai người chấm chỉ ra lỗ hổng trong 6 trường của Problem Statement v0. | Chỉ ra metric ở v0 mới đo tốc độ (< 20 phút) mà chưa đo độ chính xác của phiếu xác nhận luồng. | AI gợi ý viết lại toàn bộ Problem Statement theo văn phong quảng cáo giải pháp. | Không lấy câu chữ của AI; tự bổ sung tiêu chí "≥ 5/6 phiếu được Mentor duyệt ngay lần đầu" và thu hẹp phạm vi vào ticket có luồng qua nhiều tầng. |
+| CP6 Mức can thiệp / quyết định | Cung cấp quy trình và phương án quay về từ CP5 để làm đầu vào cho Nguyễn Quang Trung phân tích 4 mức ở CP6. | Giúp đối chiếu nhanh sự khác biệt giữa Rule (quét cây import) và Workflow (tóm tắt ngữ cảnh). | Có xu hướng đánh giá thấp rủi ro bảo mật mã nguồn và thiếu dữ liệu quy ước ngầm. | Giữ quyết định chung của nhóm là Not Yet để kiểm chứng A1–A3 và chính sách mã nguồn trước. |
 
 ---
 
@@ -194,20 +189,35 @@ Trả lời bằng trải nghiệm thật của bạn, tối thiểu 200 từ ch
 
 **6.1. Tôi học được gì khi nghe top 3 problems của các bạn khác?**
 
+Điểm mình rút ra khi đối chiếu các card là cùng mất thời gian tìm thông tin nhưng chỗ nghẽn có thể rất khác. Ôn thi vướng ở việc gom nguồn, còn khi nhận ticket, mình có thể tìm thấy API route khá nhanh rồi vẫn mất thời gian lần từ route sang service và bảng dữ liệu. Nhìn theo từng bước giúp mình so sánh các vấn đề cụ thể hơn.
+
 **6.2. Nhóm có lúc nào bị "solution-first" (nghĩ giải pháp trước khi hiểu vấn đề) không? Lúc đó nhóm nhận ra và xử lý thế nào?**
+
+Một chỗ nhóm dễ nghĩ theo giải pháp trước là đề xuất cho AI vẽ sơ đồ code. Khi viết CP5, mình thấy sơ đồ AI tạo ra nhìn khá thuyết phục. Nhưng khi tách quy trình hiện tại, mình thấy có hai việc khác nhau: lần theo luồng qua các file mất khoảng 35 phút, còn tìm quy ước của nhóm mất khoảng 15 phút. Sơ đồ có thể hỗ trợ việc đầu tiên. Với quy ước chưa có trong tài liệu, Intern vẫn cần kiểm tra code và hỏi Mentor.
 
 **6.3. Tôi có đổi ý sau khi bị phản biện không? Kể một lần cụ thể.**
 
+Ở Card #1, phản biện về việc Intern có thể làm theo sơ đồ mà chưa hiểu kiến trúc khiến mình sửa đề xuất. Bản CP5 yêu cầu Intern mở IDE đối chiếu rồi tự ghi phiếu xác nhận bốn dòng. Mentor duyệt phiếu trước khi Intern bắt đầu sửa code.
+
 **6.4. Kết quả kiểm chứng (phỏng vấn/survey/research) có làm tôi bất ngờ không? Điều gì?**
+
+Điểm đáng chú ý từ thảo luận tại bàn là với luồng đơn giản, tìm kiếm trong IDE, README và lịch sử commit có thể đã đủ. Điều đó làm phạm vi bài toán hẹp hơn, tập trung vào ticket có luồng qua nhiều tầng. Số phút trong Problem Card vẫn là mốc từ trải nghiệm cá nhân và cần đối chiếu thêm.
 
 **6.5. Điều khó nhất khi viết Problem Statement là gì?**
 
+Khó nhất là chọn cách đo để biết Intern vừa làm nhanh hơn vừa hiểu đúng luồng. Mục tiêu dưới 20 phút mỗi task dễ theo dõi, nhưng nếu bỏ sót một hàm xử lý quan trọng thì chỉ số thời gian không phản ánh chất lượng. Vì vậy mình muốn đo thêm số phiếu Mentor duyệt ngay lần đầu.
+
 **6.6. Nếu làm lại, tôi sẽ đổi gì? Tôi sẽ phản biện nhóm mạnh hơn ở điểm nào?**
+
+Mình sẽ ghi thời gian theo từng bước ngay khi làm ticket và ghi riêng phần chờ Mentor. Khi so sánh giải pháp, mình sẽ hỏi thêm cách dùng IDE và tài liệu hiện có xử lý được bao nhiêu ticket. Có mốc so sánh đó thì nhóm dễ biết phần nào thật sự cần AI.
 
 **6.7. Hiểu bài:** giải thích bằng 5–8 câu, không nhìn tài liệu, chuỗi *problem → quy trình → metric → boundary → mức can thiệp AI → quyết định* của bài nhóm mình.
 
+Intern mới mất thời gian tìm luồng dữ liệu và quy ước của nhóm khi nhận ticket sửa tính năng có sẵn. Hai bước tốn thời gian nhất là lần theo các file liên quan và tìm quy ước trong code hoặc PR cũ. Nhóm lấy mốc ban đầu khoảng 75 phút mỗi ticket và đặt mục tiêu giảm xuống dưới 20 phút. AI chỉ tóm tắt dựa trên các file được cung cấp, còn Intern đối chiếu trên IDE và Mentor duyệt phiếu xác nhận trước khi sửa code. Nhóm đề xuất Workflow vì có thể dùng Rule để tìm file rồi dùng AI để tổng hợp luồng. Nhóm quyết định Not Yet vì cần kiểm chứng thêm độ chính xác, dữ liệu đầu vào và quyền sử dụng mã nguồn.
 ---
 
 ## 7. Tài liệu tham khảo
 
--
+- Ju, A., Sajnani, H., Kelly, S., & Herzig, K. (2021). *A Case Study of Onboarding in Software Teams: Tasks and Strategies*. ICSE 2021 — https://arxiv.org/abs/2103.05055
+- Swimm Documentation — *Benefits of code-coupled documentation*: https://docs.swimm.io/new-to-swimm/benefits-of-code-coupled-documentation
+- Google PAIR — *People + AI Guidebook (User Needs & Defining Success)*: https://pair.withgoogle.com/chapter/user-needs/
