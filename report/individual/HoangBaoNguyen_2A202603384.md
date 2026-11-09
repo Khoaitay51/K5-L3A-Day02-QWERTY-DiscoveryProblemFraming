@@ -5,8 +5,8 @@
 ## Thông tin nhóm
 
 - Tên nhóm: QWERTY
-- Candidate problem nhóm chọn (1 câu): 
-- Quyết định cuối (Go / Not Yet / No-Go): 
+- Candidate problem nhóm chọn (1 câu): hực tập sinh mới mất nhiều thời gian lần theo luồng dữ liệu và tìm quy ước của nhóm khi nhận ticket sửa tính năng có sẵn.
+- Quyết định cuối (Go / Not Yet / No-Go): Not Yet
 ## Thành viên
 
 | STT | Họ và tên | MSSV | Vai trò trong nhóm | Tài khoản GitHub |
