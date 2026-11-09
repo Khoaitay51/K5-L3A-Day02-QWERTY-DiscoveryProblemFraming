@@ -6,15 +6,13 @@
 ## 1. Thông tin nhóm
 
 - Tên nhóm: QWERTY
-- Thành viên: xem `TEAM.md`
+- Thành viên: Hoàng Bảo Nguyên
 - Candidate problem được chọn (1 câu): *(chốt trong buổi CP3)*
 - Quyết định cuối: Go / Not Yet / No-Go *(chốt sau CP6)*
 
 ---
 
 ## 2. Hội tụ nhóm (CP3)
-
-> Bản mục 2 do Hoàng Bảo Nguyên (người chính CP3) chuẩn bị từ top-3 thật của 4 thành viên (nguồn: 4 file cá nhân trên repo nhóm, 09/11/2026). Cluster, OST và điểm chấm dưới đây là **đề xuất để nhóm thảo luận**; pitch, câu hỏi phản biện (cột cuối bảng 2.1), điểm chấm cuối và candidate chính thức do nhóm chốt trong buổi họp rồi cập nhật mục này (xóa ghi chú khi chốt). RULES cấm dùng AI ở phần pitch + phản biện — buổi họp vẫn diễn ra thật.
 
 ### 2.1. Pitch
 
@@ -33,7 +31,6 @@
 | 11 | Nguyễn Tiến Hưng | Soát báo cáo còn thiếu mục nào trước deadline | Học viên trước giờ nộp | Dò từng field bằng tay ~8', trong ~15'/lần | |
 | 12 | Nguyễn Tiến Hưng | Xem được mọi deadline/thông báo ở một chỗ | Học viên, cả lớp | ~5 câu hỏi lặp/tuần trong group lớp *(ước lượng)* | |
 
-Số liệu đầy đủ của từng dòng nằm trong file cá nhân của từng thành viên (`report/individual/`).
 
 ### 2.2. Cluster
 
@@ -60,11 +57,6 @@ OUTCOME: Giảm thời gian mỗi thành viên dành để gom và tổng hợp 
 └── Opportunity F: Không biết việc mình đang làm có đang chặn ai
 ```
 
-Những ý đã gạch bỏ vì là solution đội lốt opportunity:
-
-- ✗ "Chatbot trả lời thay"
-- ✗ "App gom tài liệu tự động"
-
 ### 2.4. Chấm điểm shortlist (1–5)
 
 Shortlist 3 candidate có bằng chứng mạnh nhất. **Điểm dưới là đề xuất của người chuẩn bị — nhóm chấm lại trong buổi.**
@@ -83,7 +75,7 @@ Ghi chú chấm: #1 bằng chứng là hồi tưởng có nhãn (chưa bấm gi�
 
 **Vì sao loại các candidate còn lại:** #4 — bằng chứng mạnh nhưng chỉ 1/4 thành viên gặp, khó kiểm chứng trong buổi lab (cần phỏng vấn intern dự án thật); giữ làm hướng tiếp theo. #10 — impact nhỏ hơn (15–60'/tuần) và một phần nghiệm ngoài quyền nhóm (coach thêm TL;DR vào đề); phần còn lại xử lý bằng checklist nhóm dùng chung. #7–#9 (Trung) — chưa có dấu hiệu thật (toàn "ước tính/giả thuyết, cần xác minh"), không đủ điều kiện "Pain có bằng chứng"; nếu bổ sung số thật trước buổi thì nhóm xét lại.
 
-**Xử lý bất đồng (nếu có):** *(ghi trong buổi họp)*
+**Xử lý bất đồng (nếu có)
 
 ---
 
